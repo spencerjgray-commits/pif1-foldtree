@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 924.79 340.38">
+  <!-- Generator: Adobe Illustrator 30.5.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 3)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        stroke-width: 1.9px;
+      }
+
+      .st0, .st4, .st5, .st2 {
+        stroke: #6f6f6b;
+      }
+
+      .st0, .st6, .st5 {
+        fill: #6f6f6b;
+      }
+
+      .st1, .st4, .st7, .st2, .st8 {
+        fill: none;
+      }
+
+      .st1, .st9, .st3 {
+        stroke: #009e73;
+      }
+
+      .st10 {
+        fill: #9a9a95;
+      }
+
+      .st10, .st4, .st7, .st11, .st5 {
+        stroke-width: 1.1px;
+      }
+
+      .st10, .st7 {
+        stroke: #9a9a95;
+      }
+
+      .st6 {
+        font-size: 9.5px;
+      }
+
+      .st6, .st12 {
+        font-family: Helvetica, Helvetica;
+        isolation: isolate;
+      }
+
+      .st12 {
+        font-size: 10px;
+      }
+
+      .st9 {
+        fill: #dbefe7;
+      }
+
+      .st9, .st13 {
+        stroke-width: 1.8px;
+      }
+
+      .st7 {
+        stroke-dasharray: 5 2;
+      }
+
+      .st13 {
+        fill: #fbe7da;
+        stroke: #d55e00;
+      }
+
+      .st11 {
+        fill: #f2f2f0;
+        stroke: #8a8a86;
+      }
+
+      .st8 {
+        stroke: #cfcfca;
+      }
+
+      .st3 {
+        fill: #009e73;
+      }
+    </style>
+  </defs>
+  <g id="clust1">
+    <path class="st8" d="M501.42,320.76h106.04c6,0,12-6,12-12V106.75c0-5.99-6-11.99-12-11.99h-106.04c-6,0-12,6-12,12v202c0,6,6,12,12,12"/>
+    <text class="st6" transform="translate(504.62 107.78)"><tspan x="0" y="0">three gene tree methods</tspan></text>
+  </g>
+  <g id="node1">
+    <path class="st11" d="M113.59,192.68H12.55c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h101.04c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(40.56 209.38)"><tspan x="0" y="0">Homologs</tspan></text>
+    <text class="st12" transform="translate(10.81 220.63)"><tspan x="0" y="0">957 proteins / 728 fungi</tspan></text>
+    <text class="st12" transform="translate(18.88 231.88)"><tspan x="0" y="0">InterPro IPR048293</tspan></text>
+  </g>
+  <path class="st11" d="M269.93,192.68h-97.29c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h97.29c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+  <text class="st12" transform="translate(197.25 209.38)"><tspan x="0" y="0">Structures</tspan></text>
+  <text class="st12" transform="translate(181.7 228.58)"><tspan x="0" y="0">AlphaFold2 (957)</tspan></text>
+  <g id="edge1">
+    <path class="st4" d="M125.49,216.97c10.18-.17,20.78-.35,31.11-.52"/>
+    <polygon class="st5" points="156.4 214.48 163.55 216.34 156.79 218.43 156.4 214.48"/>
+  </g>
+  <g id="node7">
+    <path class="st11" d="M447.42,291.68h-108.54c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h108.54c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(365.36 308.38)"><tspan x="0" y="0">Species tree</tspan></text>
+    <text class="st12" transform="translate(353.83 319.63)"><tspan x="0" y="0">NCBI taxonomy +</tspan></text>
+    <text class="st12" transform="translate(336.72 330.88)"><tspan x="0" y="0">Shen 2018 phylogenomic</tspan></text>
+  </g>
+  <g id="edge9">
+    <path class="st7" d="M119.2,239.15c56.38,18.05,138.76,44.45,198.67,63.64"/>
+    <polygon class="st10" points="317.92 295.17 324.84 305 317.38 310.27 317.92 295.17"/>
+  </g>
+  <path class="st11" d="M434.32,192.68h-97.29c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h97.29c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+  <text class="st12" transform="translate(356.86 209.38)"><tspan x="0" y="0">Cut disorder</tspan></text>
+  <text class="st12" transform="translate(356.22 220.63)"><tspan x="0" y="0">helicase core</tspan></text>
+  <text class="st12" transform="translate(335.52 231.88)"><tspan x="0" y="0">(sequence + structure)</tspan></text>
+  <text/>
+  <g id="edge2">
+    <path class="st4" d="M283.08,219.07c11.21-.4,23.05-.81,34.5-1.23"/>
+    <polygon class="st5" points="317.31 215.14 323.86 217.63 317.31 220.58 317.31 215.14"/>
+  </g>
+  <g id="node4">
+    <path class="st11" d="M595.96,262.68h-83.04c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h83.04c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(523.59 279.38)"><tspan x="0" y="0">Sequence ML</tspan></text>
+    <text class="st12" transform="translate(518.14 290.63)"><tspan x="0" y="0">MAFFT / trimAl /</tspan></text>
+    <text class="st12" transform="translate(512.2 301.88)"><tspan x="0" y="0">IQ-TREE LG+I+G4</tspan></text>
+  </g>
+  <g id="edge3">
+    <path class="st4" d="M442.44,237.2c15.73,8.56,32.33,17.58,48.12,26.18"/>
+    <polygon class="st5" points="491.53 258.78 498.84 267.87 489.52 267.93 491.53 258.78"/>
+  </g>
+  <g id="node5">
+    <path class="st11" d="M584.33,192.68h-59.79c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h59.79c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(534.62 209.38)"><tspan x="0" y="0">FoldTree</tspan></text>
+    <text class="st12" transform="translate(524.15 220.63)"><tspan x="0" y="0">foldseek 3Di /</tspan></text>
+    <text class="st12" transform="translate(537.22 231.88)"><tspan x="0" y="0">FastME</tspan></text>
+  </g>
+  <g id="edge4">
+    <path class="st4" d="M446.51,218.55c19.14-.41,39.7-.83,58.11-1.22"/>
+    <polygon class="st5" points="504.58 213.94 512.67 217.16 504.49 220.74 504.58 213.94"/>
+  </g>
+  <g id="node6">
+    <path class="st9" d="M597.46,122.68h-86.04c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h86.04c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(515.67 139.38)"><tspan x="0" y="0">AA + 3Di partition</tspan></text>
+    <text class="st12" transform="translate(534.16 150.63)"><tspan x="0" y="0">IQ-TREE</tspan></text>
+    <text class="st12" transform="translate(510.95 161.88)"><tspan x="0" y="0">LG + 3DiPhy matrix</tspan></text>
+  </g>
+  <g id="edge5">
+    <path class="st4" d="M446.32,204.68c15.06-13,32.51-28.07,48.17-41.59"/>
+    <polygon class="st5" points="493.43 160.34 499.42 158.83 495.32 166.05 493.43 160.34"/>
+  </g>
+  <g id="node8">
+    <path class="st11" d="M760.25,195h-98.79c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h98.79c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(679.72 211.7)"><tspan x="0" y="0">Reconciliation</tspan></text>
+    <text class="st12" transform="translate(671.52 222.95)"><tspan x="0" y="0">species-overlap +</tspan></text>
+    <text class="st12" transform="translate(659.71 234.2)"><tspan x="0" y="0">GeneRax (UndatedDL)</tspan></text>
+  </g>
+  <g id="edge6">
+    <path class="st4" d="M607.96,290.63c12.46-12.05,25.74-24.83,38.74-37.39"/>
+    <polygon class="st5" points="643.4 246.75 654.65 245.57 649.72 260.03 643.4 246.75"/>
+  </g>
+  <g id="edge7">
+    <path class="st4" d="M596.88,218.89c13.91-.14,29.76-.31,45.19-.47"/>
+    <polygon class="st5" points="641.88 215.97 648.91 218.35 641.94 220.87 641.88 215.97"/>
+  </g>
+  <g id="edge8">
+    <path class="st1" d="M592.55,170.83c4.29,2.22,8.56,4.54,12.55,6.87,13.76,8.02,28.26,17.83,40.33,26.41"/>
+    <polygon class="st3" points="646.51 202.77 649.46 207 644.2 205.33 646.51 202.77"/>
+  </g>
+  <g id="edge10">
+    <path class="st4" d="M459.71,327.75c46.9,12.28,110.36,19.37,162.77-8.81,24.96-13.43,48.03-41.92,64.83-67"/>
+    <polygon class="st5" points="685.24 249.74 692.02 244.71 688.81 255.01 685.24 249.74"/>
+  </g>
+  <g id="node9">
+    <path class="st13" d="M911.89,196.56h-92.79c-6,0-12,6-12,12v24.15c0,6,6,12,12,12h92.79c6,0,12-6,12-12v-24.15c0-6-6-12-12-12"/>
+    <text class="st12" transform="translate(817.97 213.26)"><tspan x="0" y="0">Pif1/Rrm3 duplication</tspan></text>
+    <text class="st12" transform="translate(818.38 224.51)"><tspan x="0" y="0">-&gt; Saccharomycotina</tspan></text>
+    <text class="st12" transform="translate(833.38 235.76)"><tspan x="0" y="0">~330-383 Mya</tspan></text>
+  </g>
+  <g id="edge11">
+    <path class="st2" d="M774.93,222.72h23.94"/>
+    <polygon class="st0" points="798.73 220.41 804.41 222.72 798.73 225.04 798.73 220.41"/>
+  </g>
+</svg>

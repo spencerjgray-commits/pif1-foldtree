@@ -1,0 +1,31 @@
+# Regenerable / bulky
+data/structures/afdb/
+data/structures/cores/
+data/proteomes/
+data/3di/coresdb*
+tools/
+*.ckp.gz
+*.uniqueseq.phy
+*.splits.nex
+*.ufboot
+*.mldist
+results/struct_tree/*_distmat.phy
+results/struct_tree/res.m8
+results/struct_tree/tmp/
+results/expansion/aln1180.fasta
+results/expansion/hits.m8
+results/expansion/q223db*
+results/expansion/res.*
+results/expansion/tmp/
+
+# Archives never belong in git
+*.zip
+*.tar.gz
+
+# OS / editor / language cruft
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+~$*
+.claude/
