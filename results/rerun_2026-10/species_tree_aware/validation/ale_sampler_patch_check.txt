@@ -1,0 +1,22 @@
+patched_tau0_D0.36_L0.90 /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/patched_tau0/red_v2fix.ale.nwk_x.ale.uml_rec
+  ML rates D=0.36 T=1e-19 L=0.9; logL=-1432.530; samples=1000
+  anchor-clade gene content all Saccharomycotina: 31/1000
+  anchor clade sizes: [(408, 207), (221, 198), (407, 167), (403, 153), (385, 100), (399, 57)]
+  anchor event D @ node_0 (263 species leaves): 680/1000 = 0.680
+  anchor event D @ node_717 (264 species leaves): 289/1000 = 0.289
+  anchor event D @ sac_1 (104 species leaves): 16/1000 = 0.016
+  anchor event D @ node_448 (105 species leaves): 9/1000 = 0.009
+  anchor event D @ node_3 (186 species leaves): 4/1000 = 0.004
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/patched_tau0/run.log:LL=-1432.53
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/patched_tau0/red_v2fix.ale.nwk_x.ale.uml_rec:Total 	119.817	0	488.944	776.127
+unpatched_tau0_D0.36_L0.90 /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/unpatched_tau0/red_v2fix.ale.nwk_x.ale.uml_rec
+  ML rates D=0.36 T=1e-19 L=0.9; logL=-1432.530; samples=1000
+  anchor-clade gene content all Saccharomycotina: 0/1000
+  anchor clade sizes: [(400, 1000)]
+  anchor event D @ node_717 (264 species leaves): 1000/1000 = 1.000
+  expected per-branch counts at node_0 (ALE id 525): D=0.000 L=0.209
+  expected per-branch counts at node_1 (ALE id 524): D=0.000 L=23.000
+  expected per-branch counts at node_3 (ALE id 522): D=0.000 L=9.000
+  expected per-branch counts at node_448 (ALE id 521): D=0.000 L=89.000
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/unpatched_tau0/run.log:LL=-1432.53
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/alevalid/unpatched_tau0/red_v2fix.ale.nwk_x.ale.uml_rec:Total 	406.209	0	5395.42	5396.21

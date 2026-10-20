@@ -1,0 +1,3 @@
+duplication clade: 197 genes, 103 taxids; exact Shen matches: 59 tips
+MRCA subtends 317 of 332 Shen tips; excluded: ['Botryozyma_nematodophila', 'Lipomyces_arxii', 'Lipomyces_doorenjongii', 'Lipomyces_japonicus', 'Lipomyces_kononenkoae', 'Lipomyces_lipofer', 'Lipomyces_mesembrius', 'Lipomyces_oligophaga', 'Lipomyces_starkeyi', 'Lipomyces_suomiensis', 'Tortispora_caseinolytica', 'Tortispora_ganteri', 'Tortispora_starmeri', 'Trigonopsis_variabilis', 'Trigonopsis_vinaria']
+crown 326.0 Mya; stem 383.5 Mya; Shen root 404.2 Mya

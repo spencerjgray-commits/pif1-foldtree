@@ -43,7 +43,7 @@ OUTALN = os.path.join(OUTDIR, "aln.noEDF.fasta")
 PRE = os.path.join(OUTDIR, "lba_noEDF")
 # arm64-native IQ-TREE 3.1.2 (Homebrew); the anaconda env's iqtree3 is x86 and needs Rosetta, which is
 # unavailable on this machine. Same 3.1.2 release as the main analysis, so results are comparable.
-IQTREE = "/opt/homebrew/bin/iqtree3"
+IQTREE = os.environ.get("IQTREE", "/opt/homebrew/bin/iqtree3")  # override with the IQTREE env var
 
 KEEP_GROUPS = {"ascomycota", "basidiomycota"}  # drop: human, mucoromycota, chytridiomycota
 EXPECT_KEEP = 916

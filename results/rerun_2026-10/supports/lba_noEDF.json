@@ -1,0 +1,56 @@
+{
+ "tree": "results/lba/lba_noEDF.treefile",
+ "root_tip": "A0A074S981_Rhizoctonia",
+ "n_tips": 916,
+ "mrca": {
+  "size": 198,
+  "support": "71.7/54",
+  "subphyla": {
+   "Saccharomycotina": 197,
+   "Pucciniomycotina": 1
+  }
+ },
+ "daughters": [
+  {
+   "paralog": "Rrm3",
+   "size": 103,
+   "support": "90.1/82",
+   "families": {
+    "Saccharomycetaceae": 41,
+    "Pichiaceae": 13,
+    "Debaryomycetaceae": 23,
+    "Metschnikowiaceae": 9,
+    "Saccharomycopsidaceae": 1,
+    "Trichomonascaceae": 5,
+    "Dipodascaceae": 3,
+    "Saccharomycodaceae": 5,
+    "Wickerhamomycetaceae": 3
+   }
+  },
+  {
+   "paralog": "Pif1",
+   "size": 95,
+   "support": "0/39",
+   "families": {
+    "Saccharomycetaceae": 40,
+    "Debaryomycetaceae": 23,
+    "Pichiaceae": 17,
+    "Wickerhamomycetaceae": 3,
+    "Metschnikowiaceae": 7,
+    "Dipodascaceae": 1,
+    "Sphaerophragmiaceae": 1,
+    "Saccharomycopsidaceae": 1,
+    "Saccharomycodaceae": 2
+   }
+  }
+ ],
+ "queries": [
+  {
+   "file": "results/rerun_2026-10/supports/clade197_supported.txt",
+   "n": 197,
+   "missing": 0,
+   "present": false,
+   "support": null
+  }
+ ]
+}

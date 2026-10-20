@@ -1,0 +1,6 @@
+rows old/new: 1439/1439; rows differing: 0
+totals old (pres,D,SL): 4556,479,3122   new: 4556,479,3122
+  node_448: old (6, 0, 6)  new (6, 0, 6)
+  node_578: old (36, 24, 32)  new (36, 24, 32)
+  node_183: old (20, 17, 17)  new (20, 17, 17)
+  node_0: old (13, 12, 8)  new (13, 12, 8)

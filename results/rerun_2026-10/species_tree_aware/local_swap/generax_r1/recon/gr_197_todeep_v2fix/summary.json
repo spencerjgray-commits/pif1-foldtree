@@ -1,0 +1,78 @@
+{
+ "gene_tree": "results/rerun_2026-10/species_tree_aware/local_swap/generax_r1/trees/gr_197_todeep.nwk",
+ "species_tree": "results/rerun_2026-10/species_tree_aware/reduced/v2fix.species.nwk",
+ "rates": [
+  0.1835690275504431,
+  0.5782239269349743
+ ],
+ "rates_optimised": true,
+ "n_genes": 408,
+ "n_species_leaves": 264,
+ "totals": {
+  "S": 297,
+  "Leaf": 408,
+  "D": 110,
+  "SL": 495
+ },
+ "ml_scenario_loglik": -1285.469179583489,
+ "sum_loglik": -1284.9975482386324,
+ "root_species": "node_717",
+ "anchor_duplication": {
+  "gene_clade_size": 407,
+  "event": "D",
+  "species_node": "node_0",
+  "species_node_leaves": 263
+ },
+ "top_D": [
+  {
+   "node": "sac_14",
+   "D": 5,
+   "leaves": 7
+  },
+  {
+   "node": "node_1",
+   "D": 5,
+   "leaves": 244
+  },
+  {
+   "node": "sac_61",
+   "D": 4,
+   "leaves": 8
+  },
+  {
+   "node": "sac_4",
+   "D": 4,
+   "leaves": 31
+  },
+  {
+   "node": "sac_38",
+   "D": 4,
+   "leaves": 13
+  },
+  {
+   "node": "node_578",
+   "D": 4,
+   "leaves": 20
+  },
+  {
+   "node": "node_183",
+   "D": 4,
+   "leaves": 33
+  },
+  {
+   "node": "205924",
+   "D": 4,
+   "leaves": 1
+  },
+  {
+   "node": "sac_25",
+   "D": 3,
+   "leaves": 8
+  },
+  {
+   "node": "sac_2",
+   "D": 3,
+   "leaves": 96
+  }
+ ]
+}

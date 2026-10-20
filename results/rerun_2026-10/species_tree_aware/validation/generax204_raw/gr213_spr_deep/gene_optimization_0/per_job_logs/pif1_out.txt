@@ -1,0 +1,10 @@
+Warning: this program was compiled without MPI. Make sure you are not running it with mpiexec or mpirun.
+Starting optimizeGeneTreesSlave
+LibpllModel LG+I+G4
+Starting optimizing gene tree
+Number of ranks 1
+(0.414004, 1.07282, score = 0)
+Taxa number: 957
+joint: -101296  libpll: -95306.9  reconciliation: -5988.95  
+Initial ll = -101296
+SPR Search with radius 1: trying 2865 prune nodes

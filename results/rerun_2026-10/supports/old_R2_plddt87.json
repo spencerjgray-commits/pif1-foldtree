@@ -1,0 +1,44 @@
+{
+ "tree": "results/reviewer/R2_plddt87.treefile",
+ "root_tip": "Q9H611_Homo",
+ "n_tips": 748,
+ "mrca": {
+  "size": 157,
+  "support": "48.9",
+  "subphyla": {
+   "Saccharomycotina": 157
+  }
+ },
+ "daughters": [
+  {
+   "paralog": "Rrm3",
+   "size": 79,
+   "support": "71.3",
+   "families": {
+    "Saccharomycetaceae": 29,
+    "Trichomonascaceae": 1,
+    "Metschnikowiaceae": 5,
+    "Pichiaceae": 12,
+    "Debaryomycetaceae": 23,
+    "Wickerhamomycetaceae": 3,
+    "Saccharomycodaceae": 5,
+    "Saccharomycopsidaceae": 1
+   }
+  },
+  {
+   "paralog": "Pif1",
+   "size": 78,
+   "support": "99.3",
+   "families": {
+    "Pichiaceae": 17,
+    "Saccharomycetaceae": 35,
+    "Debaryomycetaceae": 16,
+    "Metschnikowiaceae": 6,
+    "Wickerhamomycetaceae": 2,
+    "Saccharomycopsidaceae": 1,
+    "Saccharomycodaceae": 1
+   }
+  }
+ ],
+ "queries": []
+}

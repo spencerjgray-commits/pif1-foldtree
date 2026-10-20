@@ -1,0 +1,22 @@
+r1_deep: 408 tips; Pif1 daughter 96, its sister 14 tips (A0A0C3AWH9_Serendipita, A0A1B9FTK0_Kwoniella, A0A1J8Q9H0_Rhizopogon, A0A1Y2IYW8_Trametes, A0A284RAN9_Armillaria, A0A286UR16_Pyrrhoderma, A0A4S4LN17_Bondarzewia, A0A4Y9YGX5_Dentipellis, A0A8H3U0A2_Naganishia, A0A8H5D9L0_Leucocoprinus, G4TC19_Serendipita, J4H1T8_Fibroporia, J9W1Z3_Cryptococcus, Q5KCW7_Cryptococcus)
+r1_197: 408 tips; Pif1 daughter 93, its sister 104 tips
+r1_197Q: 408 tips; Pif1 daughter 93, its sister 104 tips
+final_deep: 408 tips; Pif1 daughter 93, its sister 104 tips
+final_197: 408 tips; Pif1 daughter 93, its sister 104 tips
+final_197Q: 408 tips; Pif1 daughter 93, its sister 104 tips
+pairwise unrooted RF (max 810):
+  r1_deep vs r1_197: RF 132 (normalised 0.163)
+  r1_deep vs r1_197Q: RF 112 (normalised 0.138)
+  r1_deep vs final_deep: RF 146 (normalised 0.180)
+  r1_deep vs final_197: RF 152 (normalised 0.188)
+  r1_deep vs final_197Q: RF 150 (normalised 0.185)
+  r1_197 vs r1_197Q: RF 76 (normalised 0.094)
+  r1_197 vs final_deep: RF 152 (normalised 0.188)
+  r1_197 vs final_197: RF 116 (normalised 0.143)
+  r1_197 vs final_197Q: RF 140 (normalised 0.173)
+  r1_197Q vs final_deep: RF 128 (normalised 0.158)
+  r1_197Q vs final_197: RF 122 (normalised 0.151)
+  r1_197Q vs final_197Q: RF 92 (normalised 0.114)
+  final_deep vs final_197: RF 60 (normalised 0.074)
+  final_deep vs final_197Q: RF 58 (normalised 0.072)
+  final_197 vs final_197Q: RF 42 (normalised 0.052)

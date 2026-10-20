@@ -1,0 +1,30 @@
+ALEml_undated using ALE v1.0
+Read species tree from: S.nwk..
+Read summary of tree sample for 1000 trees from: red_aa3di_197.treelist.ale..
+# tau fixed to no transfer!
+Set random seed to 42
+Reconciliation model initialised, starting DTL rate optimisation..
+#optimizing delta rate
+#optimizing lambda rate
+#optimizing rates
+Optimizing... / 1
+Optimizing... - 4
+Optimizing... \ 7
+Optimizing... / 9
+Optimizing... - 12
+Optimizing... \ 15
+Optimizing... - 18
+Optimizing... / 21
+Optimizing... - 24
+Optimizing... \ 27
+Optimizing... - 30
+Optimizing... / 33
+Optimizing... - 36
+ML rates:  delta=0.171694; tau=1e-19; lambda=0.507935; O_R=1.
+LL=-1410.38
+Sampling reconciled gene trees..
+Results in: S.nwk_red_aa3di_197.treelist.ale.uml_rec
+Transfers in: S.nwk_red_aa3di_197.treelist.ale.uTs
+real 2961.29
+user 2895.43
+sys 32.90

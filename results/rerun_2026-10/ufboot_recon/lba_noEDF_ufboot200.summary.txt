@@ -1,0 +1,4 @@
+trees: 200 from results/lba/lba_noEDF.ufboot
+gene-tree readout (rooted on A0A074S981): anchor MRCA all-Saccharomycotina in 69/200; MRCA size distribution [(198, 75), (197, 60), (226, 16), (225, 7), (196, 6), (204, 5)]
+ncbi: duplication maps inside Saccharomycotina in 69/200 (34.5%); nodes [('node_1(688)', 131), ('node_448(104)', 69)]
+graftv2: duplication maps inside Saccharomycotina in 69/200 (34.5%); nodes [('node_1(688)', 131), ('sac_1(103)', 69)]

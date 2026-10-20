@@ -1,0 +1,14 @@
+red_aa_LG_pooled /Users/spencergray/Desktop/pif1-foldtree/results/rerun_2026-10/species_tree_aware/ale/red_aa_LG_pooled/red_aa_LG_pooled.uml_rec
+  ML rates D=0.1613 T=1e-19 L=0.4645; logL=-1332.330; samples=1000
+  anchor-clade gene content all Saccharomycotina: 1000/1000
+  anchor clade sizes: [(197, 988), (196, 12)]
+  anchor event D @ sac_1 (104 species leaves): 648/1000 = 0.648
+  anchor event D @ node_448 (105 species leaves): 245/1000 = 0.245
+  anchor event D @ node_3 (186 species leaves): 88/1000 = 0.088
+  anchor event D @ node_2 (195 species leaves): 17/1000 = 0.017
+  anchor event D @ node_1 (244 species leaves): 2/1000 = 0.002
+  expected per-branch counts at node_0 (ALE id 525): D=2.738 L=0.017
+  expected per-branch counts at node_1 (ALE id 524): D=2.867 L=0.701
+  expected per-branch counts at node_3 (ALE id 522): D=0.150 L=0.022
+  expected per-branch counts at node_448 (ALE id 521): D=0.309 L=2.527
+  expected per-branch counts at sac_1 (ALE id 520): D=1.322 L=0.551

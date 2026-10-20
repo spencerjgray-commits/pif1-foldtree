@@ -1,0 +1,6 @@
+[FAMILIES]
+- pif1
+starting_gene_tree = results/seq_tree/pif1.treefile
+alignment = results/seq_tree/aln.trim.fasta
+mapping = results/rerun_2026-10/species_tree_aware/species_trees/gene_species_957.map
+subst_model = LG+I+G4

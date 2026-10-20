@@ -1,0 +1,1548 @@
+[  1%] [BISON][parse_utree_t] Building parser with bison 3.8.2
+[  2%] Building C object ext/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/__/pllmod_common.c.o
+[  3%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/__/pllmod_common.c.o
+[  4%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/branchlengths/ReconciliationBLEstimator.cpp.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:164.1-14: warning: POSIX Yacc does not support %error-verbose [-Wyacc]
+  164 | %error-verbose
+      | ^~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:164.1-14: warning: deprecated directive: '%error-verbose', use '%define parse.error verbose' [-Wdeprecated]
+  164 | %error-verbose
+      | ^~~~~~~~~~~~~~
+      | %define parse.error verbose
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:166.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  166 | %destructor { pll_utree_graph_destroy($$,NULL); } subtree
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:167.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  167 | %destructor { free($$); } STRING
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:168.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  168 | %destructor { free($$); } NUMBER
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:169.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  169 | %destructor { free($$); } label
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+[  4%] [FLEX][lex_rtree_t] Building scanner with flex 2.6.4
+[  5%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/lbfgsb/lbfgsb.c.o
+[  6%] Building C object ext/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/algo_callback.c.o
+[  6%] [FLEX][lex_utree_t] Building scanner with flex 2.6.4
+[  7%] [BISON][parse_rtree_t] Building parser with bison 3.8.2
+[  7%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/lbfgsb/linesearch.c.o
+[  7%] Building C object ext/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/algo_search.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:102.1-14: warning: POSIX Yacc does not support %error-verbose [-Wyacc]
+  102 | %error-verbose
+      | ^~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:102.1-14: warning: deprecated directive: '%error-verbose', use '%define parse.error verbose' [-Wdeprecated]
+  102 | %error-verbose
+      | ^~~~~~~~~~~~~~
+      | %define parse.error verbose
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:104.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  104 | %destructor { pll_rtree_graph_destroy($$,NULL); } subtree
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:105.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  105 | %destructor { free($$); } STRING
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:106.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  106 | %destructor { free($$); } NUMBER
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:107.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+  107 | %destructor { free($$); } label
+      | ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/branchlengths/ReconciliationBLEstimator.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/Routines.hpp:8:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/algo_search.c:461:16: warning: variable 'updated' set but not used [-Wunused-but-set-variable]
+  461 |   unsigned int updated = 0;
+      |                ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/algo_search.c:609:7: warning: variable 'regraft_edges' set but not used [-Wunused-but-set-variable]
+  609 |   int regraft_edges;
+      |       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/algo_search.c:616:7: warning: variable 'retval' set but not used [-Wunused-but-set-variable]
+  616 |   int retval;
+      |       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/algo_search.c:1070:16: warning: unused variable 'node_count' [-Wunused-variable]
+ 1070 |   unsigned int node_count = algo_query_allnodes(treeinfo->root, allnodes);
+      |                ^~~~~~~~~~
+[  8%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/lbfgsb/linpack.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/branchlengths/ReconciliationBLEstimator.cpp:7:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+4 warnings generated.
+[  9%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/compress.c.o
+[ 10%] Building C object ext/pll-modules/src/algorithm/CMakeFiles/pllmodalgorithm_obj.dir/pllmod_algorithm.c.o
+[ 10%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/lbfgsb/miniCBLAS.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/pllmod_algorithm.c:1488:16: warning: variable 'rate_scaler' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+ 1488 |       else if (highest_rate > max_rate)
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/pllmod_algorithm.c:1493:46: note: uninitialized use occurs here
+ 1493 |       scales_rates_and_branches(treeinfo, i, rate_scaler);
+      |                                              ^~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/pllmod_algorithm.c:1488:12: note: remove the 'if' if its condition is always true
+ 1488 |       else if (highest_rate > max_rate)
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1489 |         rate_scaler = max_rate / highest_rate;
+      |                                              ~
+ 1490 |       else
+      |       ~~~~
+ 1491 |         assert(0);
+      |         ~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/algorithm/pllmod_algorithm.c:1471:23: note: initialize the variable 'rate_scaler' to silence this warning
+ 1471 |     double rate_scaler;
+      |                       ^
+      |                        = 0.0
+2 warnings generated.
+[ 12%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/NewickParserCommon.cpp.o
+1 warning generated.
+[ 12%] Built target pllmodalgorithm_obj
+[ 13%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/lbfgsb/subalgorithms.c.o
+[ 13%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/parse_utree.c.o
+[ 14%] Building C object ext/pll-modules/src/binary/CMakeFiles/pllmodbinary_obj.dir/__/pllmod_common.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/optimize/lbfgsb/subalgorithms.c:40:10: warning: variable 'nbdd' set but not used [-Wunused-but-set-variable]
+   40 |   int i, nbdd;
+      |          ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_utree.y:31:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+   31 | extern int pll_utree_parse();
+      |            ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/build_x86/ext/pll-modules/libs/libpll/src/parse_utree.h:102:5: note: conflicting prototype is here
+  102 | int pll_utree_parse (struct pll_unode_s * tree);
+      |     ^
+1 warning generated.
+[ 14%] Building C object ext/pll-modules/src/binary/CMakeFiles/pllmodbinary_obj.dir/binary_io_operations.c.o
+[ 15%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/opt_algorithms.c.o
+1 warning generated.
+[ 16%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/lex_utree.c.o
+[ 16%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/RootedNewickParser.cpp.o
+[ 17%] Building C object ext/pll-modules/src/binary/CMakeFiles/pllmodbinary_obj.dir/pll_binary.c.o
+[ 17%] Building C object ext/pll-modules/src/optimize/CMakeFiles/pllmodoptimize_obj.dir/pll_optimize.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/binary/pll_binary.c:997:27: warning: variable 'n_tip_check' set but not used [-Wunused-but-set-variable]
+  997 |   unsigned int i, n_tips, n_tip_check, n_nodes;
+      |                           ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/binary/pll_binary.c:1243:18: warning: unused variable 'cur_alignment' [-Wunused-variable]
+ 1243 |     unsigned int cur_alignment = get_current_alignment(*attributes);
+      |                  ^~~~~~~~~~~~~
+[ 18%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/Families.cpp.o
+2 warnings generated.
+[ 18%] Built target pllmodbinary_obj
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/optimize/pll_optimize.c:60:19: warning: unused function 'd_equals' [-Wunused-function]
+   60 | static inline int d_equals(double a, double b)
+      |                   ^~~~~~~~
+[ 19%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/parse_rtree.c.o
+[ 19%] Building C object ext/pll-modules/src/msa/CMakeFiles/pllmodmsa_obj.dir/__/pllmod_common.c.o
+1 warning generated.
+[ 19%] Built target pllmodoptimize_obj
+[ 19%] [BISON][split_utree_t] Building parser with bison 3.8.2
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/parse_rtree.y:31:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+   31 | extern int pll_rtree_parse();
+      |            ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/build_x86/ext/pll-modules/libs/libpll/src/parse_rtree.h:92:5: note: conflicting prototype is here
+   92 | int pll_rtree_parse (struct pll_rnode_s * tree);
+      |     ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/split_utree.y:76.1-14: warning: POSIX Yacc does not support %error-verbose [-Wyacc]
+   76 | %error-verbose
+      | ^~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/split_utree.y:76.1-14: warning: deprecated directive: '%error-verbose', use '%define parse.error verbose' [-Wdeprecated]
+   76 | %error-verbose
+      | ^~~~~~~~~~~~~~
+      | %define parse.error verbose
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/split_utree.y:79.1-11: warning: POSIX Yacc does not support %destructor [-Wyacc]
+   79 | %destructor { } subtree
+      | ^~~~~~~~~~~
+[ 20%] Building C object ext/pll-modules/src/msa/CMakeFiles/pllmodmsa_obj.dir/pll_msa.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/split_utree.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+1 warning generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Families.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 21%] [FLEX][lex_split_t] Building scanner with flex 2.6.4
+[ 21%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/lex_rtree.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Families.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/msa/pll_msa.c:424:7: warning: variable 'coll' set but not used [-Wunused-but-set-variable]
+  424 |   int coll = 0;
+      |       ^
+1 warning generated.
+[ 21%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/consensus.c.o
+[ 21%] Built target pllmodmsa_obj
+[ 23%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/pll_tree.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/consensus.c:164:21: warning: unused variable 'next_n' [-Wunused-variable]
+  164 |       pll_unode_t * next_n = create_consensus_node(tree,
+      |                     ^~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/consensus.c:1242:16: warning: variable 'max_degree' set but not used [-Wunused-but-set-variable]
+ 1242 |   unsigned int max_degree = consensus_tree->tip_count;
+      |                ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/consensus.c:1285:16: warning: variable 'max_degree' set but not used [-Wunused-but-set-variable]
+ 1285 |   unsigned int max_degree = consensus_tree->tip_count;
+      |                ^
+[ 24%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_derivatives.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/pll_tree.c:550:16: warning: unused variable 'start_branches' [-Wunused-variable]
+  550 |   unsigned int start_branches        = 2 * start_tip - 3;
+      |                ^~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/pll_tree.c:1182:7: warning: variable 'index_found' set but not used [-Wunused-but-set-variable]
+ 1182 |   int index_found;
+      |       ^
+3 warnings generated.
+[ 25%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/rtree_operations.c.o
+2 warnings generated.
+[ 25%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/tree_hashtable.c.o
+2 warnings generated.
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tree_hashtable.c:47:5: warning: unused variable 'maxSize' [-Wunused-variable]
+   47 |     maxSize = (unsigned int)-1;
+      |     ^~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tree_hashtable.c:94:5: warning: variable 'entry_count' set but not used [-Wunused-but-set-variable]
+   94 |     entry_count = 0;
+      |     ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tree_hashtable.c:350:5: warning: unused variable 'max_size' [-Wunused-variable]
+  350 |     max_size = (hash_key_t)-1;
+      |     ^~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tree_hashtable.c:374:16: warning: variable 'entry_count' set but not used [-Wunused-but-set-variable]
+  374 |   unsigned int entry_count = 0, i;
+      |                ^
+[ 26%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/__/pllmod_common.c.o
+[ 26%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/Logger.cpp.o
+4 warnings generated.
+[ 26%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_likelihood.c.o
+[ 27%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/treeinfo.c.o
+[ 28%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/models.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/treeinfo.c:834:16: warning: variable 'updated' set but not used [-Wunused-but-set-variable]
+  834 |   unsigned int updated = 0;
+      |                ^
+1 warning generated.
+[ 28%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/utree_distances.c.o
+[ 28%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/models_aa.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.cpp:1:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 29%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_partials.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/utree_distances.c:822:12: warning: unused function 'split_is_valid_and_normalized' [-Wunused-function]
+  822 | static int split_is_valid_and_normalized(const pll_split_t bitv,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+1 warning generated.
+[ 30%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/GeneSpeciesMapping.cpp.o
+[ 31%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/tbe_functions.c.o
+[ 32%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/models_dna.c.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:400:11: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+  400 |       if (abs(bs_light[j] - p) > min_hdist &&
+      |           ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:400:11: note: remove the call to 'abs' since unsigned values cannot be negative
+  400 |       if (abs(bs_light[j] - p) > min_hdist &&
+      |           ^~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:401:11: warning: taking the absolute value of unsigned type 'unsigned int' has no effect [-Wabsolute-value]
+  401 |           abs(tip_count - bs_light[j] - p) > min_hdist)
+      |           ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:401:11: note: remove the call to 'abs' since unsigned values cannot be negative
+  401 |           abs(tip_count - bs_light[j] - p) > min_hdist)
+      |           ^~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:401:44: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+  401 |           abs(tip_count - bs_light[j] - p) > min_hdist)
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/src/tree/tbe_functions.c:400:32: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+  400 |       if (abs(bs_light[j] - p) > min_hdist &&
+      |           ~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~
+4 warnings generated.
+[ 32%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/models_gt.c.o
+[ 34%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/utree_operations.c.o
+[ 35%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_pmatrix.c.o
+[ 36%] Building C object ext/pll-modules/src/util/CMakeFiles/pllmodutil_obj.dir/models_mult.c.o
+[ 36%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/split_utree.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/GeneSpeciesMapping.cpp:6:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/GeneSpeciesMapping.cpp:7:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 36%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/derivatives.c.o
+[ 36%] Built target pllmodutil_obj
+[ 37%] Building C object ext/pll-modules/src/tree/CMakeFiles/pllmodtree_obj.dir/lex_split.c.o
+[ 37%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/main.cpp.o
+2 warnings generated.
+[ 38%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/FamiliesFileParser.cpp.o
+[ 39%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/fasta.c.o
+[ 39%] Built target pllmodtree_obj
+[ 39%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/LibpllParsers.cpp.o
+[ 39%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/fast_parsimony.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/FamiliesFileParser.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 40%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/Checkpoint.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.cpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+1 warning generated.
+[ 41%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/Model.cpp.o
+[ 42%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/gamma.c.o
+2 warnings generated.
+[ 42%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/Command.cpp.o
+[ 43%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/hardware.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 43%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/likelihood.c.o
+[ 45%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/list.c.o
+[ 45%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/maps.c.o
+[ 46%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/CommandsRunner.cpp.o
+[ 47%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/models.c.o
+[ 47%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/output.c.o
+1 warning generated.
+[ 47%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/ParallelOfstream.cpp.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/models.c:26:26: warning: variable 'iter' set but not used [-Wunused-but-set-variable]
+   26 |   unsigned int     m, l, iter, i, k;
+      |                          ^
+1 warning generated.
+[ 48%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/parsimony.c.o
+[ 49%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/IO/ReconciliationWriter.cpp.o
+[ 50%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/partials.c.o
+[ 50%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/phylip.c.o
+[ 50%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/Common.cpp.o
+[ 51%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/pll.c.o
+[ 52%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/likelihoods/LibpllEvaluation.cpp.o
+[ 52%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/random.c.o
+[ 53%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/DynamicLibrary.cpp.o
+[ 54%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/repeats.c.o
+[ 56%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/Instance.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.cpp:9:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.cpp:13:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.cpp:18:14: warning: unused variable 'DEFAULT_BL' [-Wunused-const-variable]
+   18 | const double DEFAULT_BL = 0.1;
+      |              ^~~~~~~~~~
+3 warnings generated.
+[ 56%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/likelihoods/ReconciliationEvaluation.cpp.o
+[ 57%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/rtree.c.o
+[ 57%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/ParallelImplementation.cpp.o
+[ 58%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/RunStatistics.cpp.o
+[ 58%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/stepwise.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:133:24: warning: unused parameter 'event' [-Wunused-parameter]
+  133 |       Scenario::Event *event,
+      |                        ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:283:17: warning: unused parameter 'scenario' [-Wunused-parameter]
+  283 |       Scenario *scenario,
+      |                 ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:142:8: warning: unused variable 'll' [-Wunused-variable]
+  142 |   auto ll = evaluate();
+      |        ^~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:157:8: warning: unused variable 'll' [-Wunused-variable]
+  157 |   auto ll = evaluate(); 
+      |        ^~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/ext/pll-modules/libs/libpll/src/stepwise.c:279:10: warning: variable 'total_ops' set but not used [-Wunused-but-set-variable]
+  279 |   size_t total_ops = 0;
+      |          ^
+1 warning generated.
+[ 59%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/utree.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:820:8: warning: unused variable 'll' [-Wunused-variable]
+  820 |   auto ll = getSumLikelihood();
+      |        ^~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDLModel.hpp:24:3: note: in instantiation of member function 'AbstractReconciliationModel<ScaledValue>::inferMLScenario' requested here
+   24 |   UndatedDLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:101:17: note: in instantiation of member function 'UndatedDLModel<ScaledValue>::UndatedDLModel' requested here
+  101 |       res = new UndatedDLModel<ScaledValue>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDLModel.hpp:250:23: note: in instantiation of function template specialization 'sampleIndex<std::array<ScaledValue, 8>, ScaledValue>' requested here
+  250 |       maxValueIndex = sampleIndex<ValuesArray, REAL>(values);
+      |                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDLModel.hpp:24:3: note: in instantiation of member function 'UndatedDLModel<ScaledValue>::computeProbability' requested here
+   24 |   UndatedDLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:101:17: note: in instantiation of member function 'UndatedDLModel<ScaledValue>::UndatedDLModel' requested here
+  101 |       res = new UndatedDLModel<ScaledValue>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDLModel.hpp:250:23: note: in instantiation of function template specialization 'sampleIndex<std::array<double, 8>, double>' requested here
+  250 |       maxValueIndex = sampleIndex<ValuesArray, REAL>(values);
+      |                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDLModel.hpp:24:3: note: in instantiation of member function 'UndatedDLModel<double>::computeProbability' requested here
+   24 |   UndatedDLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:103:17: note: in instantiation of member function 'UndatedDLModel<double>::UndatedDLModel' requested here
+  103 |       res = new UndatedDLModel<double>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:495:22: note: in instantiation of function template specialization 'sampleIndex<std::vector<ScaledValue>, ScaledValue>' requested here
+  495 |     auto bestIndex = sampleIndex<std::vector<REAL>, REAL>(transferProbas);
+      |                      ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:377:7: note: in instantiation of member function 'UndatedDTLModel<ScaledValue>::getBestTransfer' requested here
+  377 |       getBestTransfer(geneNode, speciesNode, isVirtualRoot, 
+      |       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:20:3: note: in instantiation of member function 'UndatedDTLModel<ScaledValue>::computeProbability' requested here
+   20 |   UndatedDTLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:108:17: note: in instantiation of member function 'UndatedDTLModel<ScaledValue>::UndatedDTLModel' requested here
+  108 |       res = new UndatedDTLModel<ScaledValue>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:386:23: note: in instantiation of function template specialization 'sampleIndex<std::array<ScaledValue, 7>, ScaledValue>' requested here
+  386 |       maxValueIndex = sampleIndex<ValuesArray, REAL>(values);
+      |                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:20:3: note: in instantiation of member function 'UndatedDTLModel<ScaledValue>::computeProbability' requested here
+   20 |   UndatedDTLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:108:17: note: in instantiation of member function 'UndatedDTLModel<ScaledValue>::UndatedDTLModel' requested here
+  108 |       res = new UndatedDTLModel<ScaledValue>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:495:22: note: in instantiation of function template specialization 'sampleIndex<std::vector<double>, double>' requested here
+  495 |     auto bestIndex = sampleIndex<std::vector<REAL>, REAL>(transferProbas);
+      |                      ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:377:7: note: in instantiation of member function 'UndatedDTLModel<double>::getBestTransfer' requested here
+  377 |       getBestTransfer(geneNode, speciesNode, isVirtualRoot, 
+      |       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:20:3: note: in instantiation of member function 'UndatedDTLModel<double>::computeProbability' requested here
+   20 |   UndatedDTLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:110:17: note: in instantiation of member function 'UndatedDTLModel<double>::UndatedDTLModel' requested here
+  110 |       res = new UndatedDTLModel<double>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:924:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  924 | }
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:386:23: note: in instantiation of function template specialization 'sampleIndex<std::array<double, 7>, double>' requested here
+  386 |       maxValueIndex = sampleIndex<ValuesArray, REAL>(values);
+      |                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:20:3: note: in instantiation of member function 'UndatedDTLModel<double>::computeProbability' requested here
+   20 |   UndatedDTLModel(PLLRootedTree &speciesTree, 
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:110:17: note: in instantiation of member function 'UndatedDTLModel<double>::UndatedDTLModel' requested here
+  110 |       res = new UndatedDTLModel<double>(_speciesTree, _geneSpeciesMapping, _recModelInfo);
+      |                 ^
+[ 59%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/SVGDrawer.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:820:8: warning: unused variable 'll' [-Wunused-variable]
+  820 |   auto ll = getSumLikelihood();
+      |        ^~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/ParsimonyDModel.hpp:17:3: note: in instantiation of member function 'AbstractReconciliationModel<double>::inferMLScenario' requested here
+   17 |   ParsimonyDModel(PLLRootedTree &speciesTree, 
+      |   ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/SimpleDSModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:779:20: warning: 'static' function 'speciesTreeString' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  779 | static std::string speciesTreeString(pll_rnode_t *node)
+      |                    ^~~~~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:793:20: warning: 'static' function 'geneTreeString' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  793 | static std::string geneTreeString(pll_unode_t *node, const std::vector<unsigned int> toSpecies)
+      |                    ^~~~~~~~~~~~~~
+[ 60%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/fork_implem/ForkImplem.cpp.o
+[ 60%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/utree_moves.c.o
+[ 61%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/split_implem/SplitImplem.cpp.o
+[ 62%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/utree_svg.c.o
+[ 62%] Building CXX object ext/MPIScheduler/src/CMakeFiles/mpi-scheduler.dir/onecore_implem/OneCoreImplem.cpp.o
+[ 63%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_derivatives_sse.c.o
+16 warnings generated.
+[ 64%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/maths/Random.cpp.o
+[ 64%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/NJ/MiniNJ.cpp.o
+[ 64%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_likelihood_sse.c.o
+[ 65%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/NJ/Cherry.cpp.o
+[ 67%] Linking CXX static library libmpi-scheduler.a
+[ 68%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_partials_sse.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/MiniNJ.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/Cherry.cpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 68%] Built target mpi-scheduler
+[ 68%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/NJ/CherryPro.cpp.o
+[ 68%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_pmatrix_sse.c.o
+1 warning generated.
+[ 69%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/NJ/NeighborJoining.cpp.o
+[ 70%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/fast_parsimony_sse.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/CherryPro.cpp:8:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/NeighborJoining.cpp:2:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/NeighborJoining.cpp:109:8: warning: unused variable 'cherriesOldSize' [-Wunused-variable]
+  109 |   auto cherriesOldSize = constrainCherries.size();
+      |        ^~~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/NeighborJoining.cpp:110:8: warning: unused variable 'leavesOldSize' [-Wunused-variable]
+  110 |   auto leavesOldSize = constrainLeaves.size();
+      |        ^~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/NJ/CherryPro.cpp:479:10: warning: unused variable 'speciesId' [-Wunused-variable]
+  479 |     auto speciesId = p.first;
+      |          ^~~~~~~~~
+[ 70%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_derivatives_avx.c.o
+1 warning generated.
+[ 71%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_likelihood_avx.c.o
+3 warnings generated.
+[ 72%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_partials_avx.c.o
+[ 72%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_pmatrix_avx.c.o
+[ 73%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/fast_parsimony_avx.c.o
+[ 73%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_derivatives_avx2.c.o
+2 warnings generated.
+[ 74%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_likelihood_avx2.c.o
+[ 75%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/optimizers/DTLOptimizer.cpp.o
+[ 76%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_partials_avx2.c.o
+[ 76%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/core_pmatrix_avx2.c.o
+[ 78%] Building C object ext/pll-modules/libs/libpll/src/CMakeFiles/pll_obj.dir/fast_parsimony_avx2.c.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/DTLOptimizer.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/DTLOptimizer.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 78%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/optimizers/PerFamilyDTLOptimizer.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/DTLOptimizer.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/DTLOptimizer.cpp:76:16: warning: variable 'llComputationsGrad' set but not used [-Wunused-but-set-variable]
+   76 |   unsigned int llComputationsGrad = 0;
+      |                ^
+[ 79%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/optimizers/SpeciesTreeOptimizer.cpp.o
+[ 79%] Built target pll_obj
+3 warnings generated.
+[ 79%] Linking C static library libpll.a
+[ 79%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/parallelization/ParallelContext.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/PerFamilyDTLOptimizer.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/PerFamilyDTLOptimizer.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/PerFamilyDTLOptimizer.cpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/PerFamilyDTLOptimizer.cpp:107:10: warning: enumeration value 'None' not handled in switch [-Wswitch]
+  107 |   switch(method) {
+      |          ^~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/PerFamilyDTLOptimizer.cpp:121:10: warning: enumeration value 'None' not handled in switch [-Wswitch]
+  121 |   switch(method) {
+      |          ^~~~~~
+[ 79%] Built target pll_static
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 80%] Linking C static library libpllmodoptimize.a
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:8:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:283:17: warning: unused parameter 'scenario' [-Wunused-parameter]
+  283 |       Scenario *scenario,
+      |                 ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/ParallelContext.cpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:370:8: warning: variable 'hash1' set but not used [-Wunused-but-set-variable]
+  370 |   auto hash1 = _speciesTree->getNodeIndexHash(); 
+      |        ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:506:8: warning: variable 'hash1' set but not used [-Wunused-but-set-variable]
+  506 |   auto hash1 = _speciesTree->getNodeIndexHash(); 
+      |        ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:545:16: warning: variable 'trials' set but not used [-Wunused-but-set-variable]
+  545 |   unsigned int trials = 0;
+      |                ^
+[ 80%] Built target pllmodoptimize_static
+4 warnings generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/optimizers/SpeciesTreeOptimizer.cpp:8:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/UndatedDTLModel.hpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:351:13: warning: 'static' function 'fillNodesPostOrder' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  351 | static bool fillNodesPostOrder(pll_rnode_t *node, 
+      |             ^~~~~~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:779:20: warning: 'static' function 'speciesTreeString' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  779 | static std::string speciesTreeString(pll_rnode_t *node)
+      |                    ^~~~~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:793:20: warning: 'static' function 'geneTreeString' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  793 | static std::string geneTreeString(pll_unode_t *node, const std::vector<unsigned int> toSpecies)
+      |                    ^~~~~~~~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/reconciliation_models/AbstractReconciliationModel.hpp:839:21: warning: 'static' function 'getOther' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+  839 | static pll_unode_t *getOther(pll_unode_t *ref, pll_unode_t *n1, pll_unode_t *n2)
+      |                     ^~~~~~~~
+[ 80%] Linking C static library libpllmodalgorithm.a
+[ 81%] Linking C static library libpllmodbinary.a
+1 warning generated.
+[ 82%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/parallelization/PerCoreGeneTrees.cpp.o
+[ 82%] Built target pllmodalgorithm_static
+[ 82%] Built target pllmodbinary_static
+[ 83%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/parallelization/Scheduler.cpp.o
+[ 83%] Linking C static library libpllmodmsa.a
+[ 83%] Built target pllmodmsa_static
+[ 83%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/scheduled_routines/GeneRaxSlave.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/Scheduler.cpp:6:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/FileSystem.hpp:9:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+1 warning generated.
+[ 84%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/scheduled_routines/GeneRaxMaster.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/GeneRaxSlave.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/GeneRaxSlave.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+10 warnings generated.
+[ 84%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/scheduled_routines/RaxmlMaster.cpp.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/GeneRaxSlave.cpp:111:45: warning: unused parameter 'argc' [-Wunused-parameter]
+  111 | int GeneRaxSlave::optimizeGeneTreesMain(int argc, char** argv, void* comm)
+      |                                             ^
+2 warnings generated.
+[ 85%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/scheduled_routines/RaxmlSlave.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/GeneRaxMaster.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/GeneRaxMaster.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+3 warnings generated.
+[ 86%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/Routines.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/RaxmlMaster.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+2 warnings generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/RaxmlMaster.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 86%] Linking C static library libpllmodtree.a
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/RaxmlSlave.cpp:8:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/RaxmlSlave.cpp:9:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 86%] Built target pllmodtree_static
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/scheduled_routines/RaxmlSlave.cpp:42:42: warning: unused parameter 'argc' [-Wunused-parameter]
+   42 | int RaxmlSlave::runRaxmlOptimization(int argc, char** argv, void* comm)
+      |                                          ^
+[ 86%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/routines/SlavesMain.cpp.o
+2 warnings generated.
+[ 86%] Linking C static library libpllmodutil.a
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/Routines.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/Routines.hpp:8:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+3 warnings generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/Routines.cpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 87%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/search/Moves.cpp.o
+[ 87%] Built target pllmodutil_static
+[ 87%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/search/Rollbacks.cpp.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/Routines.cpp:146:8: warning: unused variable 'speciesNodesNumber' [-Wunused-variable]
+  146 |   auto speciesNodesNumber = speciesTree.getNodesNumber();
+      |        ^~~~~~~~~~~~~~~~~~
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/routines/SlavesMain.cpp:2:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+1 warning generated.
+[ 89%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/search/SearchUtils.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Rollbacks.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Rollbacks.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.cpp:41:18: warning: unused variable 'oldLoglk' [-Wunused-variable]
+   41 |           double oldLoglk = tree.computeLibpllLoglk(true);
+      |                  ^~~~~~~~
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.cpp:42:18: warning: unused variable 'newLoglk' [-Wunused-variable]
+   42 |           double newLoglk = pllmod_opt_optimize_branch_lengths_local(
+      |                  ^~~~~~~~
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Rollbacks.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SearchUtils.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SearchUtils.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/Moves.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+2 warnings generated.
+4 warnings generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SearchUtils.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 89%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/search/SPRSearch.cpp.o
+[ 90%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/support/ICCalculator.cpp.o
+3 warnings generated.
+[ 91%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/Clade.cpp.o
+2 warnings generated.
+[ 91%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/DSTagger.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SPRSearch.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SPRSearch.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/parallelization/PerCoreGeneTrees.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SPRSearch.cpp:124:24: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+  124 |     allMoves.push_back(std::move(Move::createSPRMove(pruneIndex, regraftIndex, move.path)));
+      |                        ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SPRSearch.cpp:124:24: note: remove std::move call here
+  124 |     allMoves.push_back(std::move(Move::createSPRMove(pruneIndex, regraftIndex, move.path)));
+      |                        ^~~~~~~~~~                                                        ~
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.cpp:7:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.cpp:508:13: warning: unused variable 'v' [-Wunused-variable]
+  508 |   for (auto v: _refNodeIndexToBranchIndex) {
+      |             ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/search/SPRSearch.cpp:19:13: warning: function 'queryPruneIndicesRec' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+   19 | static void queryPruneIndicesRec(pll_unode_t * node,
+      |             ^~~~~~~~~~~~~~~~~~~~
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/DSTagger.cpp:2:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.cpp:2:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/support/ICCalculator.hpp:66:16: warning: private field '_maxBranchIndex' is not used [-Wunused-private-field]
+   66 |   unsigned int _maxBranchIndex;
+      |                ^
+4 warnings generated.
+[ 92%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/PLLUnrootedTree.cpp.o
+[ 92%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/PLLRootedTree.cpp.o
+1 warning generated.
+[ 93%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/PLLTreeInfo.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLUnrootedTree.cpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLUnrootedTree.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+4 warnings generated.
+[ 94%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/PolytomySolver.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLRootedTree.cpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLTreeInfo.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLTreeInfo.hpp:18:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLRootedTree.cpp:4:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLTreeInfo.cpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PLLRootedTree.cpp:427:12: warning: unused variable 'otherRight' [-Wunused-variable]
+  427 |       auto otherRight = otherTree.getNode(mapping[rightId]);
+      |            ^~~~~~~~~~
+2 warnings generated.
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PolytomySolver.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PolytomySolver.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+[ 94%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/PolyTree.cpp.o
+2 warnings generated.
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PolytomySolver.cpp:198:11: warning: unused variable 'c' [-Wunused-variable]
+  198 |     auto &c = cells[spid];
+      |           ^
+[ 95%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/JointTree.cpp.o
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/PolytomySolver.cpp:6:14: warning: unused variable 'BL_THRESHOLD' [-Wunused-const-variable]
+    6 | const double BL_THRESHOLD = 0.000001;
+      |              ^~~~~~~~~~~~
+3 warnings generated.
+[ 95%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/trees/SpeciesTree.cpp.o
+3 warnings generated.
+[ 96%] Building CXX object src/core/CMakeFiles/jointsearch-core.dir/util/Scenario.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/LibpllEvaluation.hpp:12:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.cpp:209:19: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+  209 |   _rollbacks.push(std::move(move.applyMove(*this)));
+      |                   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/JointTree.cpp:209:19: note: remove std::move call here
+  209 |   _rollbacks.push(std::move(move.applyMove(*this)));
+      |                   ^~~~~~~~~~                     ~
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.hpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/likelihoods/ReconciliationEvaluation.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/RecModelInfo.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/maths/Parameters.hpp:6:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/trees/SpeciesTree.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/util/Scenario.cpp:2:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+3 warnings generated.
+2 warnings generated.
+1 warning generated.
+[ 97%] Linking CXX static library libjointsearch-core.a
+[ 97%] Built target jointsearch-core
+[ 98%] Building CXX object src/GeneRax/CMakeFiles/generax.dir/GeneRaxCore.cpp.o
+[ 98%] Building CXX object src/GeneRax/CMakeFiles/generax.dir/GeneRaxInstance.cpp.o
+[100%] Building CXX object src/GeneRax/CMakeFiles/generax.dir/GeneRaxArguments.cpp.o
+[100%] Building CXX object src/GeneRax/CMakeFiles/generax.dir/generax.cpp.o
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/generax.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxArguments.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/ArgumentsHelper.hpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/generax.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxInstance.hpp:11:1: warning: 'GeneRaxInstance' defined as a struct here but previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+   11 | struct GeneRaxInstance {
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxCore.hpp:2:1: note: did you mean struct here?
+    2 | class GeneRaxInstance;
+      | ^~~~~
+      | struct
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxCore.cpp:3:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxInstance.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxArguments.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/ArgumentsHelper.hpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxInstance.cpp:1:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxInstance.hpp:4:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxArguments.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/ArgumentsHelper.hpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxCore.cpp:3:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxInstance.hpp:11:1: warning: 'GeneRaxInstance' defined as a struct here but previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+   11 | struct GeneRaxInstance {
+      | ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxCore.hpp:2:1: note: did you mean struct here?
+    2 | class GeneRaxInstance;
+      | ^~~~~
+      | struct
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxArguments.cpp:2:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxArguments.hpp:5:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/ArgumentsHelper.hpp:5:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Logger.hpp:80:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   80 |         sprintf(s, "%02ld:%02ld:%02ld", hours, minutes, seconds);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/GeneRax/GeneRaxCore.cpp:8:
+In file included from /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/LibpllParsers.hpp:10:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:3: warning: explicitly defaulted copy constructor is implicitly deleted [-Wdefaulted-function-deleted]
+  120 |   Model(const Model&) = default;
+      |   ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:181:48: note: copy constructor of 'Model' is implicitly deleted because field '_custom_charmap' has a deleted copy constructor
+  181 |   std::unique_ptr<pll_state_t, void(*)(void*)> _custom_charmap;
+      |                                                ^
+/Users/spencergray/miniforge3/envs/strecon_x86/bin/../include/c++/v1/__memory/unique_ptr.h:211:55: note: copy constructor is implicitly deleted because 'unique_ptr<unsigned long long, void (*)(void *)>' has a user-declared move constructor
+  211 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 unique_ptr(unique_ptr&& __u) _NOEXCEPT
+      |                                                       ^
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/src/core/IO/Model.hpp:120:25: note: replace 'default' with 'delete'
+  120 |   Model(const Model&) = default;
+      |                         ^~~~~~~
+      |                         delete
+1 warning generated.
+2 warnings generated.
+1 warning generated.
+3 warnings generated.
+[100%] Linking CXX executable ../../bin/generax
+[100%] Built target generax

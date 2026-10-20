@@ -1,0 +1,75 @@
+GeneRax was called as follow:
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/build_upstream/bin/generax -f results/rerun_2026-10/species_tree_aware/generax/inputs/families_red_aa_197.txt -s results/rerun_2026-10/species_tree_aware/reduced/v2fix.species.nwk -r UndatedDL --unrooted-gene-tree --strategy SPR --max-spr-radius 5 --seed 42 -p results/rerun_2026-10/species_tree_aware/generax/red_v2fix_aa_197 
+
+General information:
+- Output prefix: results/rerun_2026-10/species_tree_aware/generax/red_v2fix_aa_197
+- Families information: results/rerun_2026-10/species_tree_aware/generax/inputs/families_red_aa_197.txt
+- Species tree: results/rerun_2026-10/species_tree_aware/reduced/v2fix.species.nwk
+- MPI Ranks: 1
+- Random seed: 42
+- Reconciliation model: UndatedDL
+- DTL rates: global rates
+- Infer ML reconciliation: ON
+- Unrooted reconciliation likelihood: ON
+- Prune species tree mode: OFF
+
+Gene tree correction information:
+- Gene tree strategy: SPR
+- Max gene SPR radius: 5
+
+[00:00:00] Filtering invalid families...
+
+End of instance initialization
+[00:00:00] Starting species tree initialization...
+[00:00:00] End of species tree initialization
+[00:00:00] Filtering invalid families based on the starting species tree...
+
+[00:00:00] Gathering statistics about the families...
+[00:00:00] Input data information:
+- Number of gene families: 1
+- Number of species: 264
+- Total number of genes: 408
+- Average number of genes per family: 408
+- Maximum number of genes per family: 408
+- Species covered with the smallest family coverage: "9606" (covered by 1/1 families)
+- Average (over species) species family coverage: 1
+
+[00:00:00] Reconciliation rates optimization... 
+	D=0.366699, L=0.890889, RecLL= -1754.88
+
+[00:00:07] Optimizing gene trees with radius=1... 
+	JointLL=-62307 RecLL=-1318.62 LibpllLL=-60988.4
+
+[04:30:16] Reconciliation rates optimization... 
+	D=0.185349, L=0.575862, RecLL= -1286.02
+
+[04:30:22] Optimizing gene trees with radius=2... 
+	JointLL=-62188.2 RecLL=-1160.84 LibpllLL=-61027.4
+
+[08:37:18] Reconciliation rates optimization... 
+	D=0.152353, L=0.497894, RecLL= -1157.69
+
+[08:37:24] Optimizing gene trees with radius=3... 
+	JointLL=-62150 RecLL=-1099.33 LibpllLL=-61050.7
+
+[23:38:01] Reconciliation rates optimization... 
+	D=0.140712, L=0.468388, RecLL= -1098.58
+
+[23:38:05] Optimizing gene trees with radius=4... 
+	JointLL=-62145.6 RecLL=-1096.93 LibpllLL=-61048.7
+
+[24:36:18] Reconciliation rates optimization... 
+	D=0.140545, L=0.467845, RecLL= -1096.93
+
+[24:36:22] Optimizing gene trees with radius=5... 
+	JointLL=-62144.4 RecLL=-1096.93 LibpllLL=-61047.5
+
+[25:21:39] Reconciling gene trees with the species tree...
+[25:21:39] Terminating the instance..
+
+[25:21:39] DT rates: D=0.140545 L= 0.467845
+[25:21:39] Reconciliation likelihood: -1096.93
+[25:21:39] Phylogenetic likelihood: -61047.5
+[25:21:39] Joint likelihood: -62144.4
+[25:21:39] Results directory: results/rerun_2026-10/species_tree_aware/generax/red_v2fix_aa_197
+[25:21:39] End of GeneRax execution

@@ -1,0 +1,10 @@
+Starting optimizeGeneTreesSlave
+LibpllModel LG+G
+Starting optimizing gene tree
+Number of ranks 1
+(0.372461, 1, score = 0)
+Taxa number: 957
+joint: -101538  libpll: -95538.4  reconciliation: -5999.41  
+Initial ll = -101538
+Start SPR round (std::hash=14301, (best ll=-101538, radius=1, possible moves: 1908)
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/bisect_lgg/cmd.sh: line 1: 32676 Segmentation fault: 11  /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204/build/bin/generax optimizeGeneTrees results/seq_tree/pif1.treefile results/rerun_2026-10/species_tree_aware/species_trees/gene_species_957.map results/seq_tree/aln.trim.fasta results/rerun_2026-10/species_tree_aware/generax/v2fix_aa_deep/species_trees/inferred_species_tree.newick LG+G results/rerun_2026-10/species_tree_aware/generax/v2fix_aa_deep/gene_optimization_0/dtl_rates.txt 0 0 0 0 0 0.000001 NONE 0 -1 1 1 1 1 /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/bisect_lgg/geneTree.newick /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/bisect_lgg/stats.txt 0

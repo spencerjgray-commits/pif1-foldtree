@@ -7,8 +7,14 @@ tools/
 *.ckp.gz
 *.uniqueseq.phy
 *.splits.nex
-*.ufboot
 *.mldist
+*.ufboot
+# bootstrap tree sets that downstream analyses (ALE, UFBoot reconciliation, split counts) read:
+!results/seq_tree/pif1.ufboot
+!results/lba/lba_noEDF.ufboot
+!results/rerun_2026-10/ufboot_recon/aa3di_full_rep_mac.ufboot
+!results/rerun_2026-10/species_tree_aware/ufboot197/*.ufboot
+!results/rerun_2026-10/pmsf/work/results/seq_tree/pif1_pmsf.ufboot
 results/struct_tree/*_distmat.phy
 results/struct_tree/res.m8
 results/struct_tree/tmp/

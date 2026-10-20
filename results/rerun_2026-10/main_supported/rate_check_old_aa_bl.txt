@@ -1,0 +1,14 @@
+
+=== Tajima's relative-rate test (model-free) ===
+  outgroup: Q9UUA2_Schizosaccharomyces
+  sites unique to ScPif1: 21   unique to ScRrm3: 25
+  chi2 = 0.35 (1 df; >3.84 => rates differ at p<0.05; >6.63 at p<0.01)
+  => Rrm3 faster; not significant
+
+=== branch-length rate comparison (results/seq_tree/aa_bl.treefile) ===
+  Saccharomycotina clade under duplication node: 197 tips (Pif1 subclade 98, Rrm3 subclade 99)
+  mean root(dup)->tip   Pif1 0.877   Rrm3 1.073   ratio Rrm3/Pif1 = 1.22
+  median                Pif1 0.868   Rrm3 1.073
+  permutation p (Pif1 vs Rrm3 rate difference): 0.0000 (significant)
+  mean terminal branch  Pif1 0.150   Rrm3 0.191   non-Sacch 0.082
+  (Saccharomycotina copies longer than non-Sacch => post-duplication acceleration / LBA-prone, supporting that the AA deep placement is artifactual)

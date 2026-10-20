@@ -1,0 +1,4 @@
+gene_tree	species_tree	n_genes	anchor_clade_genes	anchor_event	anchor_node	anchor_node_leaves	D_anchor_node	rank_anchor_node	D_node_448	rank_node_448	D_node_578	D_total	SL_total	top5
+results/rerun_2026-10/robustness/R2_plddt87fixed_B1000.treefile	results/reconciliation/aa3di/eval/species_trees/inferred_species_tree.newick	738	701	D	node_0	718	15	3	6	9	24	365	2805	node_578(61):24; node_183(215):20; node_0(718):15; node_1(688):9; node_3(549):9
+results/rerun_2026-10/robustness/R2_plddt87fixed_B1000.treefile	results/reconciliation/aa3di_grafted/run/species_trees/starting_species_tree.newick	738	701	D	node_0	718	15	4	37	1	24	375	3131	node_448(104):37; node_578(61):24; node_183(215):20; node_0(718):15; node_483(18):10
+results/rerun_2026-10/robustness/R2_plddt87fixed_B1000.treefile	results/rerun_2026-10/grafted/grafted_species_v2.binary.nwk	738	701	D	node_0	718	15	3	0	138	24	362	2688	node_578(61):24; node_183(215):20; node_0(718):15; node_1(688):9; node_3(549):9

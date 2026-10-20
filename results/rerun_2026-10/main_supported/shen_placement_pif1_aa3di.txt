@@ -1,0 +1,17 @@
+[17] duplication clade: 197 genes -> 99 distinct species (normalized)
+[17] time tree: 330 tips
+
+matched 54/99 duplication-clade species to the Shen tree (45 unmatched)
+
+=== M5: placement on the phylogenomic tree ===
+  MRCA of the matched duplication-clade species subtends 317 tips (our matched: 54) -> NON-monophyletic (includes 263 extra Shen tips)
+  (extra tips, if any, are budding yeasts we didn't sample; expected, not a conflict)
+
+=== R6: calibrated dating (Myr) ===
+  duplication sits on the branch ABOVE this MRCA, so its age is bracketed:
+    crown age of the duplication clade (MRCA): 326.0 Mya
+    stem age (MRCA's parent):                  383.5 Mya
+    => PIF1/RRM3 duplication age in [326, 383] Mya
+  (Shen tree root / budding-yeast crown age: 404.2 Mya; time units scaled x100)
+
+  unmatched species (first 15): ['australozyma_saopauloensis', 'brettanomyces_naardenensis', 'candida_anglica', 'candida_jaroonii', 'candida_maltosa', 'candida_metapsilosis', 'candida_oxycetoniae', 'candida_railenensis', 'candida_subhashii', 'candida_theae', 'candida_verbasci', 'candida_viswanathii', 'candidozyma_auris', 'candidozyma_duobushaemuli', 'candidozyma_haemuli']

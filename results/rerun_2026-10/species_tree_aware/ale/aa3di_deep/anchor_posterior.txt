@@ -1,0 +1,11 @@
+aa3di_deep /Users/spencergray/Desktop/pif1-foldtree/results/rerun_2026-10/species_tree_aware/ale/aa3di_deep/aa3di_deep.uml_rec
+  ML rates D=0.423 T=1e-19 L=1.095; logL=-4794.250; samples=1000
+  anchor-clade gene content all Saccharomycotina: 0/1000
+  anchor clade sizes: [(946, 865), (957, 102), (210, 9), (303, 6), (947, 4), (878, 4)]
+  anchor event D @ node_0 (719 species leaves): 816/1000 = 0.816
+  anchor event D @ node_717 (720 species leaves): 184/1000 = 0.184
+  expected per-branch counts at node_0 (ALE id 1437): D=5.618 L=0.062
+  expected per-branch counts at node_1 (ALE id 1436): D=3.737 L=0.973
+  expected per-branch counts at node_3 (ALE id 1434): D=0.183 L=0.434
+  expected per-branch counts at node_448 (ALE id 1388): D=0.179 L=2.565
+  expected per-branch counts at sac_1 (ALE id 1384): D=0.481 L=0.354

@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset AA = AA, 1-209;
+  charset TDi = 210-418;
+  charpartition mymodels =
+    LG+G4{0.66485}: AA{133.349},
+    GTR20+F+G4{0.796284}: TDi{75.5941};
+end;

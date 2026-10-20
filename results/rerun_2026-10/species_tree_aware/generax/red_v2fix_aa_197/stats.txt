@@ -1,0 +1,3 @@
+JointLL: -62144.4
+LibpllLL: -61047.5
+RecLL: -1096.93

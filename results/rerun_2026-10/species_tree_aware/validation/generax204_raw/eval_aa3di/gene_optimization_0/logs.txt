@@ -1,0 +1,12 @@
+The master process runs on node  and on pid 19321
+Remaining commands: 1
+## Started pif1 on [0:0] 
+All commands were launched
+End of pif1 after 8939ms  (1/1)
+end of run
+Finished running commands. Total elasped time: 8s
+Load balance ratio: 0.999888
+Saving svg output in /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/eval_aa3di/gene_optimization_0/statistics.svg
+total width 2
+Time spent writting svg: 0s
+End of Multiraxml run

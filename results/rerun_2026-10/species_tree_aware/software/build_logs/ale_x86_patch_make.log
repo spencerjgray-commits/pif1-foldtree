@@ -1,0 +1,18 @@
+[ 20%] Built target bpp-core-static
+[ 40%] Built target bpp-seq-static
+[ 78%] Built target bpp-phyl-static
+[ 78%] Built target boost_atomic
+[ 80%] Built target boost_chrono
+[ 80%] Built target boost_container
+[ 82%] Built target boost_date_time
+[ 82%] Built target boost_thread
+[ 82%] Built target boost_random
+[ 90%] Built target boost_serialization
+[ 90%] Built target boost_graph
+[ 96%] Built target boost_mpi
+[ 98%] Built target boost_timer
+[ 98%] Building CXX object src/CMakeFiles/exODT.dir/undated.cpp.o
+[100%] Linking CXX static library ../lib/libexODT.a
+[100%] Built target exODT
+[100%] Linking CXX executable ../bin/ALEml_undated
+[100%] Built target ALEml_undated

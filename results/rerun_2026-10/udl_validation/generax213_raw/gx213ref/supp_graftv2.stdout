@@ -1,0 +1,55 @@
+[00:00:00] GeneRax 2.1.3
+Logs will also be printed into /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp_graftv2/generax.log
+GeneRax was called as follow:
+/Users/spencergray/opt/anaconda3/envs/pif1/bin/generax -f /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp.families.txt -s results/rerun_2026-10/grafted/grafted_species_v2.binary.nwk -r UndatedDL --unrooted-gene-tree --strategy EVAL --seed 42 -p /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp_graftv2 
+
+General information:
+- Output prefix: /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp_graftv2
+- Families information: /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp.families.txt
+- Species tree: results/rerun_2026-10/grafted/grafted_species_v2.binary.nwk
+- MPI Ranks: 1
+- Random seed: 42
+- Reconciliation model: UndatedDL
+- DTL rates: global rates
+- Infer ML reconciliation: ON
+- Unrooted reconciliation likelihood: ON
+- Enforcing gene tree root: OFF
+- Prune species tree mode: OFF
+
+Gene tree correction information:
+- Gene tree search strategy: EVAL
+- Max gene SPR radius: 0
+
+[00:00:00] Filtering invalid families...
+
+End of instance initialization
+[00:00:00] Starting species tree initialization...
+[00:00:00] End of species tree initialization
+[00:00:00] Filtering invalid families based on the starting species tree...
+
+[00:00:00] Gathering statistics about the families...
+[00:00:00] Input data information:
+- Number of gene families: 1
+- Number of species: 719
+- Total number of genes: 941
+- Average number of genes per family: 941
+- Maximum number of genes per family: 941
+- Species covered with the smallest family coverage: "35722" (covered by 1/1 families)
+- Average (over species) species family coverage: 1
+
+[00:00:00] Optimizing DTL rates before the reconciliation...
+[00:00:49] ll=-6058.58
+[00:00:49] Optimizing the phylogenetic likelihood...
+[00:01:04] Reconciling gene trees with the species tree...
+[Spencers-MacBook-Pro-594:47395] *** Process received signal ***
+[Spencers-MacBook-Pro-594:47395] Signal: Segmentation fault: 11 (11)
+[Spencers-MacBook-Pro-594:47395] Signal code: Address not mapped (1)
+[Spencers-MacBook-Pro-594:47395] Failing at address: 0x4
+[Spencers-MacBook-Pro-594:47395] [ 0] 0   libsystem_platform.dylib            0x00007ff80507341d _sigtramp + 29
+[Spencers-MacBook-Pro-594:47395] [ 1] 0   ???                                 0x00007fcf75f0ed00 0x0 + 140529013681408
+[Spencers-MacBook-Pro-594:47395] [ 2] 0   generax                             0x0000000104c88a8f _ZN8Routines19inferReconciliationERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_6vectorI10FamilyInfoNS4_ISA_EEEERK15ModelParametersS8_bjb + 2511
+[Spencers-MacBook-Pro-594:47395] [ 3] 0   generax                             0x0000000104bf699b _ZN11GeneRaxCore9reconcileER15GeneRaxInstance + 1611
+[Spencers-MacBook-Pro-594:47395] [ 4] 0   generax                             0x0000000104bed709 _Z12generax_mainiPPcPv + 633
+[Spencers-MacBook-Pro-594:47395] [ 5] 0   generax                             0x0000000104bedf35 main + 85
+[Spencers-MacBook-Pro-594:47395] [ 6] 0   dyld                                0x00000002051981b5 start + 3253
+[Spencers-MacBook-Pro-594:47395] *** End of error message ***

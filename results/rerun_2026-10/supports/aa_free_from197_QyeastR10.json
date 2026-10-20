@@ -1,0 +1,53 @@
+{
+ "tree": "results/rerun_2026-10/au/aa_free_from197_QyeastR10.treefile",
+ "root_tip": "Q9H611_Homo",
+ "n_tips": 957,
+ "mrca": {
+  "size": 197,
+  "support": "NA",
+  "subphyla": {
+   "Saccharomycotina": 197
+  }
+ },
+ "daughters": [
+  {
+   "paralog": "Rrm3",
+   "size": 104,
+   "support": "NA",
+   "families": {
+    "Saccharomycetaceae": 41,
+    "Saccharomycodaceae": 5,
+    "Debaryomycetaceae": 23,
+    "Metschnikowiaceae": 9,
+    "Pichiaceae": 13,
+    "Dipodascaceae": 4,
+    "Trichomonascaceae": 5,
+    "Wickerhamomycetaceae": 3,
+    "Saccharomycopsidaceae": 1
+   }
+  },
+  {
+   "paralog": "Pif1",
+   "size": 93,
+   "support": "NA",
+   "families": {
+    "Saccharomycetaceae": 40,
+    "Saccharomycodaceae": 2,
+    "Debaryomycetaceae": 23,
+    "Metschnikowiaceae": 7,
+    "Pichiaceae": 17,
+    "Wickerhamomycetaceae": 3,
+    "Saccharomycopsidaceae": 1
+   }
+  }
+ ],
+ "queries": [
+  {
+   "file": "results/rerun_2026-10/supports/clade197_supported.txt",
+   "n": 197,
+   "missing": 0,
+   "present": true,
+   "support": "NA"
+  }
+ ]
+}

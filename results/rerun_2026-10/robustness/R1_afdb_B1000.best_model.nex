@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset AA = AA, 1-209;
+  charset TDi = 210-418;
+  charpartition mymodels =
+    LG+G4{0.698891}: AA{127.865},
+    data/3di/3di_substmat.txt+G4{0.792395}: TDi{72.9939};
+end;

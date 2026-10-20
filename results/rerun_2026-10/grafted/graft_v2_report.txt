@@ -1,0 +1,20 @@
+v1 binary tree: 719 leaves; Saccharomycotina node node_448 with 104 leaves
+Shen tips: 332; translated to an NCBI species: 318
+placements: {'genus': 36, 'exact': 62, 'family': 6}; exact matches through a synonym/current name: 6
+   synonym: Nakaseomyces bracarensis -> Candida_bracarensis
+   synonym: Henningerozyma blattae (strain ATCC 34711 / C -> Tetrapisispora_blattae
+   synonym: Huiozyma naganishii (strain ATCC MYA-139 / BC -> Kazachstania_naganishii
+   synonym: Dekkera bruxellensis (Brettanomyces custersii -> Brettanomyces_bruxellensis
+   synonym: Candidozyma auris (Yeast) (Candida auris) -> Candida_auris
+   synonym: Sungouiella intermedia -> Candida_intermedia
+pruned Saccharomycotina subtree: 104 leaves; 9 polytomies to resolve (sizes [3, 3, 3, 3, 3, 3, 4, 4, 5])
+   polytomy: ['[29-leaf clade]', '5481', '1227364']
+   polytomy: ['[25-leaf clade]', '1245528', '5486']
+   polytomy: ['[3-leaf clade]', '497107', '273372', '1198502', '1775926']
+   polytomy: ['498019', '45357', '418784', '1231522']
+   polytomy: ['4922', '981350', '644223']
+   polytomy: ['[11-leaf clade]', '870730', '1937702']
+   polytomy: ['[2-leaf clade]', '52247', '36015']
+   polytomy: ['61262', '51915', '1789683']
+   polytomy: ['[2-leaf clade]', '36035', '56406', '211096']
+v2 Saccharomycotina root split: 103 leaves (Candida verbasci, Diutina rugosa (Yeast) (Candid, [Candida] anglica...) | 1 leaves (Lipomyces orientalis)

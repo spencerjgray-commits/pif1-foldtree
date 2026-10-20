@@ -1,0 +1,6 @@
+label	event	species_node	species_leaves	count	samples	freq	D	L	T	logL	anchor_clade_all_sacch
+red_lba_noEDF	D	sac_1	104	764	1000	0.764	0.168053	0.488081	1e-19	-1281.85	950
+red_lba_noEDF	D	node_448	105	164	1000	0.164	0.168053	0.488081	1e-19	-1281.85	950
+red_lba_noEDF	D	node_1	244	49	1000	0.049	0.168053	0.488081	1e-19	-1281.85	950
+red_lba_noEDF	D	node_3	186	21	1000	0.021	0.168053	0.488081	1e-19	-1281.85	950
+red_lba_noEDF	D	node_2	195	2	1000	0.002	0.168053	0.488081	1e-19	-1281.85	950

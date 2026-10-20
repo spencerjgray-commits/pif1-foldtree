@@ -1,0 +1,28 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 24bb73e..3bcf1a9 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -167,7 +167,9 @@ if (ENABLE_AVX2)
+   SET_SOURCE_FILES_PROPERTIES( ${LIBPLL_AVX2_SOURCES} PROPERTIES COMPILE_FLAGS ${AVX2_FLAGS} )
+ endif ()
+ 
+-add_definitions(-DHAVE_X86INTRIN_H)
++if (CMAKE_SYSTEM_PROCESSOR MATCHES "x86_64|AMD64|i386")
++  add_definitions(-DHAVE_X86INTRIN_H)
++endif()
+ 
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${LIBPLL_BASE_FLAGS}")
+ 
+diff --git a/src/hardware.c b/src/hardware.c
+index 2241d4a..3203834 100644
+--- a/src/hardware.c
++++ b/src/hardware.c
+@@ -75,6 +75,8 @@ static void cpu_features_detect()
+ 
+ #if defined(__PPC__)
+   pll_hardware.altivec_present = 1;
++#elif defined(__aarch64__) || defined(__arm64__)
++  (void)a; (void)b; (void)c; (void)d;   /* arm64: no x86 SIMD; use the generic CPU kernels */
+ #else
+ 
+   cpuid(0,0,a,b,c,d);

@@ -1,0 +1,14 @@
+Warning: this program was compiled without MPI. Make sure you are not running it with mpiexec or mpirun.
+Starting optimizeGeneTreesSlave
+LibpllModel LG+G
+Starting optimizing gene tree
+Number of ranks 1
+(0.408236, 1.08546, score = 0)
+Taxa number: 941
+joint: -103073  libpll: -96845.4  reconciliation: -6227.99  
+Initial ll = -103073
+joint: -103073  libpll: -96845.4  reconciliation: -6227.99  
+Saving tree in /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp_ncbi/results/pif1/geneTree.newick
+Finished saving  /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/228a68b7-d239-47b2-b3f4-f61b4f2c2114/scratchpad/gx213ref/supp_ncbi/results/pif1/geneTree.newick
+End of optimizing gene tree after 15s
+End of optimizeGeneTreesSlave

@@ -1,0 +1,6 @@
+[FAMILIES]
+- pif1
+starting_gene_tree = results/rerun_2026-10/species_tree_aware/reduced/start_aa_197Q.nwk
+alignment = results/rerun_2026-10/species_tree_aware/reduced/aln.fasta
+mapping = results/rerun_2026-10/species_tree_aware/reduced/gene_species.map
+subst_model = LG+I+G4

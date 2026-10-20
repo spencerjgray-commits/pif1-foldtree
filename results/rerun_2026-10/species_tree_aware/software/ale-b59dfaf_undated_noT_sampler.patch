@@ -1,0 +1,13 @@
+diff --git a/src/undated.cpp b/src/undated.cpp
+index bec7a91..c902a45 100644
+--- a/src/undated.cpp
++++ b/src/undated.cpp
+@@ -992,7 +992,7 @@ string exODT_model::sample_undated(int e, int i,string last_event,string branch_
+       }
+       // D event
+       uq_resum+=PD[e]*(uq[gp_i][e]*uq[gpp_i][e]*2)*pp+EPSILON;
+-      if (r*uq_sum<uq_resum or no_T)
++      if (r*uq_sum<uq_resum)
+       {
+         register_D(e);
+         return "("+sample_undated(e,gp_i,"D","",no_T)+","+sample_undated(e,gpp_i,"D","",no_T)+").D@"+estr+branch_string+":"+branch_length;

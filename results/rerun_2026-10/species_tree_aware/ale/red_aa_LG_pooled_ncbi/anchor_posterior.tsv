@@ -1,0 +1,7 @@
+label	event	species_node	species_leaves	count	samples	freq	D	L	T	logL	anchor_clade_all_sacch
+red_aa_LG_pooled_ncbi	D	node_448	105	504	1000	0.504	0.192512	0.566887	1e-19	-1515.27	990
+red_aa_LG_pooled_ncbi	D	node_3	186	342	1000	0.342	0.192512	0.566887	1e-19	-1515.27	990
+red_aa_LG_pooled_ncbi	D	node_2	195	121	1000	0.121	0.192512	0.566887	1e-19	-1515.27	990
+red_aa_LG_pooled_ncbi	D	node_1	244	22	1000	0.022	0.192512	0.566887	1e-19	-1515.27	990
+red_aa_LG_pooled_ncbi	D	node_0	263	6	1000	0.006	0.192512	0.566887	1e-19	-1515.27	990
+red_aa_LG_pooled_ncbi	D	node_717	264	5	1000	0.005	0.192512	0.566887	1e-19	-1515.27	990

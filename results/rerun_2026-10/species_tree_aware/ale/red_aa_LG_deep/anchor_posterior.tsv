@@ -1,0 +1,6 @@
+label	event	species_node	species_leaves	count	samples	freq	D	L	T	logL	anchor_clade_all_sacch
+red_aa_LG_deep	D	node_0	263	657	1000	0.657	0.173587	0.501182	1e-19	-1379.78	4
+red_aa_LG_deep	D	node_717	264	339	1000	0.339	0.173587	0.501182	1e-19	-1379.78	4
+red_aa_LG_deep	D	sac_1	104	2	1000	0.002	0.173587	0.501182	1e-19	-1379.78	4
+red_aa_LG_deep	D	node_448	105	1	1000	0.001	0.173587	0.501182	1e-19	-1379.78	4
+red_aa_LG_deep	D	node_3	186	1	1000	0.001	0.173587	0.501182	1e-19	-1379.78	4

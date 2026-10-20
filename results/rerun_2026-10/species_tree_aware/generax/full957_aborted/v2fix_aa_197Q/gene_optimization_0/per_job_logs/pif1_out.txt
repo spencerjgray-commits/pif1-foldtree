@@ -1,0 +1,11 @@
+Starting optimizeGeneTreesSlave
+LibpllModel LG+I+G4
+Starting optimizing gene tree
+Number of ranks 1
+(0.374375, 1, score = 0)
+Taxa number: 957
+joint: -101237  libpll: -95315.6  reconciliation: -5921.36  
+Initial ll = -101237
+Start SPR round (std::hash=2903, (best ll=-101237, radius=1, possible moves: 1908)
+best;; -101190 0
+Start SPR round (std::hash=13820, (best ll=-101190, radius=1, possible moves: 1908)

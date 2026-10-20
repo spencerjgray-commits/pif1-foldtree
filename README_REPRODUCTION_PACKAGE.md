@@ -138,7 +138,7 @@ localColabFold is **not** captured in `env.lock.txt` — the gap-folding was run
 an external Windows/WSL2 RTX 4090 box and its colabfold/JAX/CUDA versions were
 never recorded (a known provenance gap; see §6).
 
-Run all commands from the repo root: `/Users/spencergray/Desktop/pif1-foldtree`.
+Run all commands from the repo root.
 
 ## 4. Step-by-step walkthrough
 

@@ -1,0 +1,6 @@
+label	event	species_node	species_leaves	count	samples	freq	D	L	T	logL	anchor_clade_all_sacch
+aa_LG_pooled	D	sac_1	104	643	1000	0.643	0.418	1.079	1e-19	-4566.67	1000
+aa_LG_pooled	D	node_448	105	251	1000	0.251	0.418	1.079	1e-19	-4566.67	1000
+aa_LG_pooled	D	node_3	550	72	1000	0.072	0.418	1.079	1e-19	-4566.67	1000
+aa_LG_pooled	D	node_2	561	29	1000	0.029	0.418	1.079	1e-19	-4566.67	1000
+aa_LG_pooled	D	node_1	689	5	1000	0.005	0.418	1.079	1e-19	-4566.67	1000

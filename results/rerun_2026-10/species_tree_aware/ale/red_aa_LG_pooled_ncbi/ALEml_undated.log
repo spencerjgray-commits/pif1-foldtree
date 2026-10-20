@@ -1,0 +1,37 @@
+ALEml_undated using ALE v1.0
+Read species tree from: S.nwk..
+Read summary of tree sample for 2000 trees from: red_aa_LG_pooled_ncbi.treelist.ale..
+# tau fixed to no transfer!
+Set random seed to 42
+Reconciliation model initialised, starting DTL rate optimisation..
+#optimizing delta rate
+#optimizing lambda rate
+#optimizing rates
+Optimizing... / 1
+Optimizing... - 4
+Optimizing... \ 7
+Optimizing... / 9
+Optimizing... - 12
+Optimizing... \ 15
+Optimizing... - 18
+Optimizing... / 21
+Optimizing... \ 23
+Optimizing... - 26
+Optimizing... / 29
+Optimizing... - 32
+Optimizing... - 34
+Optimizing... / 37
+Optimizing... - 40
+Optimizing... \ 43
+Optimizing... - 46
+Optimizing... - 48
+Optimizing... \ 51
+Optimizing... - 54
+ML rates:  delta=0.192512; tau=1e-19; lambda=0.566887; O_R=1.
+LL=-1515.27
+Sampling reconciled gene trees..
+Results in: S.nwk_red_aa_LG_pooled_ncbi.treelist.ale.uml_rec
+Transfers in: S.nwk_red_aa_LG_pooled_ncbi.treelist.ale.uTs
+real 5854.97
+user 5736.39
+sys 69.46

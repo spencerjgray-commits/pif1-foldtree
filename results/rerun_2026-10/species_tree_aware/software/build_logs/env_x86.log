@@ -1,0 +1,187 @@
+
+
+Transaction
+
+  Prefix: /Users/spencergray/miniforge3/envs/strecon_x86
+
+  Updating specs:
+
+   - cmake>=3.24
+   - openmpi
+   - cxx-compiler
+   - c-compiler
+   - make
+   - llvm-openmp
+   - bison
+   - flex
+
+
+warning  libmamba Extracted package cache '/Users/spencergray/miniforge3/pkgs/_openmp_mutex-4.5-8_kmp_llvm' has invalid size
+warning  libmamba Extracted package cache '/Users/spencergray/miniforge3/pkgs/_openmp_mutex-4.5-8_kmp_llvm' has invalid SHA-256 checksum
+  Package                      Version  Build                   Channel           Size
+────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                  4.5  8_kmp_llvm              conda-forge        8kB
+  + bison                        3.8.2  hd7636e7_0              conda-forge      622kB
+  + bzip2                        1.0.8  h374f1ed_10             conda-forge      133kB
+  + c-ares                      1.34.8  had63097_2              conda-forge      206kB
+  + c-compiler                   2.0.0  h819f056_0              conda-forge        7kB
+  + ca-certificates          2026.7.22  hbd8a1cb_0              conda-forge     Cached
+  + cctools                   1030.6.3  llvm21_1_he201b2c_6     conda-forge       24kB
+  + cctools_impl_osx-64       1030.6.3  llvm21_1_hd9d6719_6     conda-forge      752kB
+  + clang                       21.1.8  default_cfg_he3ef750_7  conda-forge       33kB
+  + clang-21                    21.1.8  default_h0a1f3f9_7      conda-forge      822kB
+  + clang-scan-deps             21.1.8  default_h0a1f3f9_7      conda-forge      113kB
+  + clang_impl_osx-64           21.1.8  default_ha1a018a_7      conda-forge       32kB
+  + clangxx                     21.1.8  default_cfg_he3ef750_7  conda-forge       32kB
+  + clangxx_impl_osx-64         21.1.8  default_ha1a018a_7      conda-forge       32kB
+  + cmake                        4.4.4  haddf760_0              conda-forge       22MB
+  + compiler-rt                 21.1.8  h694c41f_2              conda-forge       16kB
+  + compiler-rt21               21.1.8  h8c1e6b9_2              conda-forge       99kB
+  + compiler-rt21_osx-64        21.1.8  h8d5f570_2              conda-forge       10MB
+  + compiler-rt_osx-64          21.1.8  h694c41f_2              conda-forge       16kB
+  + cxx-compiler                 2.0.0  h94bea0c_0              conda-forge        7kB
+  + flex                         2.6.4  hcc69e7b_1004           conda-forge      240kB
+  + icu                           78.3  py313hbf1d544_2         conda-forge       14MB
+  + krb5                        1.22.2  h69064fd_2              conda-forge        1MB
+  + ld64                         956.6  llvm21_1_h2eed689_6     conda-forge       22kB
+  + ld64_osx-64                  956.6  llvm21_1_hb373d2a_6     conda-forge        1MB
+  + libclang-cpp21.1            21.1.8  default_h0a1f3f9_7      conda-forge       14MB
+  + libclang-cpp23.1            23.1.3  default_h6e863b9_1      conda-forge       18MB
+  + libclang13                  23.1.3  default_h3732b42_1      conda-forge       11MB
+  + libcompiler-rt              21.1.8  h8c1e6b9_2              conda-forge        1MB
+  + libcurl                     8.23.0  h5318221_0              conda-forge      447kB
+  + libcxx                      23.1.3  h19cb2f5_0              conda-forge      573kB
+  + libcxx-devel                21.1.8  h7c275be_4              conda-forge       24kB
+  + libcxx-headers              21.1.8  h707e725_4              conda-forge     Cached
+  + libedit               3.1.20260512  pl5321hba2e2ab_0        conda-forge      116kB
+  + libev                         4.33  ha3d0635_3              conda-forge       40kB
+  + libevent                    2.1.12  hf6fecaa_2              conda-forge      372kB
+  + libexpat                     2.8.5  h6e061ac_0              conda-forge       75kB
+  + libfabric                    2.6.0  h694c41f_0              conda-forge       14kB
+  + libfabric1                   2.6.0  ha1e9b39_0              conda-forge      370kB
+  + libgcc                      16.2.0  h13771c8_7              conda-forge      391kB
+  + libgfortran                 16.2.0  h7e5c614_7              conda-forge      100kB
+  + libgfortran5                16.2.0  h2539e6c_7              conda-forge        1MB
+  + libhwloc                    2.13.0  default_h4e3125e_1000   conda-forge        2MB
+  + libiconv                      1.18  h4ae439b_3              conda-forge      736kB
+  + libllvm21                   21.1.8  hd11396f_1              conda-forge       32MB
+  + libllvm23                   23.1.3  hd11396f_0              conda-forge       33MB
+  + liblzma                      5.8.3  hbb4bfdb_1              conda-forge      105kB
+  + libnghttp2                  1.68.1  h1e30255_1              conda-forge      599kB
+  + libpmix                      5.0.8  haa30d82_4              conda-forge      590kB
+  + libpsl                      0.23.1  h7ff43d8_1              conda-forge       73kB
+  + libsigtool                   0.1.3  h8c25ef7_1              conda-forge       39kB
+  + libssh2                     1.11.1  hd53bb72_1              conda-forge      286kB
+  + libuv                       1.52.1  ha3d0635_1              conda-forge      129kB
+  + libxml2                     2.15.4  hb56241c_1              conda-forge       41kB
+  + libxml2-16                  2.15.4  h8376fb4_1              conda-forge      499kB
+  + libzlib                      1.3.2  hbb4bfdb_3              conda-forge       59kB
+  + llvm-openmp                 23.1.3  h8c1e6b9_0              conda-forge      312kB
+  + llvm-tools                  21.1.8  h8c1e6b9_1              conda-forge       88kB
+  + llvm-tools-21               21.1.8  h36529c3_1              conda-forge       19MB
+  + m4                          1.4.21  ha1e9b39_0              conda-forge      257kB
+  + make                         4.4.1  hd77389f_4              conda-forge      303kB
+  + mpi                          1.0.1  openmpi                 conda-forge        7kB
+  + ncurses                        6.6  hcc0dc9a_1              conda-forge      835kB
+  + openmpi                     5.0.11  h02ad2ad_0              conda-forge        3MB
+  + openssl                      3.6.5  h332eb6d_0              conda-forge        3MB
+  + rhash                        1.4.6  ha1e9b39_2              conda-forge      186kB
+  + sigtool-codesign             0.1.3  h8c25ef7_1              conda-forge      123kB
+  + tapi                   1600.0.11.8  h44950e2_4              conda-forge      216kB
+  + zstd                         1.5.7  hbc1a06c_7              conda-forge      528kB
+
+  Summary:
+
+  Install: 69 packages
+
+  Total download: 199MB
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking libexpat-2.8.5-h6e061ac_0
+Linking llvm-openmp-23.1.3-h8c1e6b9_0
+Linking make-4.4.1-hd77389f_4
+Linking libcxx-23.1.3-h19cb2f5_0
+Linking libiconv-1.18-h4ae439b_3
+Linking libfabric1-2.6.0-ha1e9b39_0
+Linking libzlib-1.3.2-hbb4bfdb_3
+Linking bzip2-1.0.8-h374f1ed_10
+Linking liblzma-5.8.3-hbb4bfdb_1
+Linking libuv-1.52.1-ha3d0635_1
+Linking ncurses-6.6-hcc0dc9a_1
+Linking rhash-1.4.6-ha1e9b39_2
+Linking libcompiler-rt-21.1.8-h8c1e6b9_2
+Linking c-ares-1.34.8-had63097_2
+Linking libev-4.33-ha3d0635_3
+Linking m4-1.4.21-ha1e9b39_0
+Linking icu-78.3-py313hbf1d544_2
+Linking _openmp_mutex-4.5-8_kmp_llvm
+Linking libfabric-2.6.0-h694c41f_0
+Linking zstd-1.5.7-hbc1a06c_7
+Linking libedit-3.1.20260512-pl5321hba2e2ab_0
+Linking tapi-1600.0.11.8-h44950e2_4
+Linking flex-2.6.4-hcc69e7b_1004
+Linking libxml2-16-2.15.4-h8376fb4_1
+Linking libpsl-0.23.1-h7ff43d8_1
+Linking libgcc-16.2.0-h13771c8_7
+Linking bison-3.8.2-hd7636e7_0
+Linking libxml2-2.15.4-hb56241c_1
+Linking libgfortran5-16.2.0-h2539e6c_7
+Linking libllvm21-21.1.8-hd11396f_1
+Linking libllvm23-23.1.3-hd11396f_0
+Linking libhwloc-2.13.0-default_h4e3125e_1000
+Linking libgfortran-16.2.0-h7e5c614_7
+Linking llvm-tools-21-21.1.8-h36529c3_1
+Linking libclang-cpp21.1-21.1.8-default_h0a1f3f9_7
+Linking libclang-cpp23.1-23.1.3-default_h6e863b9_1
+Linking llvm-tools-21.1.8-h8c1e6b9_1
+Linking libclang13-23.1.3-default_h3732b42_1
+Linking clang-scan-deps-21.1.8-default_h0a1f3f9_7
+Linking mpi-1.0.1-openmpi
+Linking compiler-rt21_osx-64-21.1.8-h8d5f570_2
+Linking ca-certificates-2026.7.22-hbd8a1cb_0
+Linking libcxx-headers-21.1.8-h707e725_4
+Linking compiler-rt_osx-64-21.1.8-h694c41f_2
+Linking compiler-rt21-21.1.8-h8c1e6b9_2
+Linking openssl-3.6.5-h332eb6d_0
+Linking libcxx-devel-21.1.8-h7c275be_4
+Linking compiler-rt-21.1.8-h694c41f_2
+Linking clang-21-21.1.8-default_h0a1f3f9_7
+Linking libssh2-1.11.1-hd53bb72_1
+Linking libnghttp2-1.68.1-h1e30255_1
+Linking krb5-1.22.2-h69064fd_2
+Linking libsigtool-0.1.3-h8c25ef7_1
+Linking libevent-2.1.12-hf6fecaa_2
+Linking libcurl-8.23.0-h5318221_0
+Linking sigtool-codesign-0.1.3-h8c25ef7_1
+Linking libpmix-5.0.8-haa30d82_4
+Linking cmake-4.4.4-haddf760_0
+Linking ld64_osx-64-956.6-llvm21_1_hb373d2a_6
+Linking openmpi-5.0.11-h02ad2ad_0
+Linking ld64-956.6-llvm21_1_h2eed689_6
+Linking cctools_impl_osx-64-1030.6.3-llvm21_1_hd9d6719_6
+Linking cctools-1030.6.3-llvm21_1_he201b2c_6
+Linking clang_impl_osx-64-21.1.8-default_ha1a018a_7
+Linking clangxx_impl_osx-64-21.1.8-default_ha1a018a_7
+Linking clang-21.1.8-default_cfg_he3ef750_7
+Linking clangxx-21.1.8-default_cfg_he3ef750_7
+Linking c-compiler-2.0.0-h819f056_0
+Linking cxx-compiler-2.0.0-h94bea0c_0
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    mamba activate strecon_x86
+
+Or to execute a single command in this environment, use:
+
+    mamba run -n strecon_x86 mycommand
+

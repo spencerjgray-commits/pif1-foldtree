@@ -1,0 +1,4 @@
+trees: 200 from results/rerun_2026-10/ufboot_recon/aa3di_full_rep_mac.ufboot
+gene-tree readout (rooted on Q9H611): anchor MRCA all-Saccharomycotina in 0/200; MRCA size distribution [(880, 103), (946, 38), (877, 18), (878, 9), (881, 6), (947, 5)]
+ncbi: duplication maps inside Saccharomycotina in 0/200 (0.0%); nodes [('node_0(718)', 198), ('node_1(688)', 1), ('node_2(560)', 1)]
+graftv2: duplication maps inside Saccharomycotina in 0/200 (0.0%); nodes [('node_0(718)', 198), ('node_1(688)', 1), ('node_2(560)', 1)]

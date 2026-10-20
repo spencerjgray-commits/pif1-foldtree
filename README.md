@@ -3,8 +3,9 @@
 Code, data and outputs for a manuscript in preparation (Gray, Kumcu & Bochman) that dates the gene duplication
 producing the budding-yeast Pif1 and Rrm3 helicases.
 
-**Status:** pre-submission. Analyses are being revised, and the tree, reconciliation and dating outputs here will
-be replaced by the revised runs before a tagged, Zenodo-archived release.
+**Status:** pre-submission. The October 2026 reanalysis is in `results/rerun_2026-10/`. Its summaries,
+`results/RERUN_2026-10_SUMMARY.md` and `results/rerun_2026-10/species_tree_aware/SUMMARY.md`, supersede several
+numbers in the original outputs. A tagged, Zenodo-archived release will follow the manuscript revision.
 
 ## What the pipeline does
 1. Collects the cellular PIF1-family helicases (InterPro **IPR048293**, not the Helitron-contaminated Pfam PF05970)
@@ -21,7 +22,9 @@ be replaced by the revised runs before a tagged, Zenodo-archived release.
 ```
 manifest.csv                 one row per protein: accession, taxonomy, structure source, pLDDT, structure path
 environment.yml, env.lock.txt   conda environment (GeneRax 2.0.4 was run from a separate env; see below)
-workflow/                    numbered pipeline scripts (01–19) and _aps_* analysis/plotting helpers
+workflow/                    numbered pipeline scripts (01–18), _aps_* analysis/plotting helpers, and the
+                             2026-10 reanalysis scripts (33–51; 35_undated_dl.py is a validated UndatedDL
+                             re-implementation of GeneRax 2.0.4 EVAL)
 data/seqs/                   IPR048293 tables per phylum, selected.tsv/.faa (957), cores.faa, tip_map.tsv;
                              _superseded_PF05970/ keeps the Pfam-based candidate sets behind Fig. S1
 data/structures/af3/         the 129 ColabFold models (AF2, despite the folder name) + inputs and how-to
@@ -34,8 +37,22 @@ results/reconciliation/      GeneRax runs (AA, AA+3Di on both backbones, robustn
 results/reviewer/            robustness re-runs (R1 AFDB-only, R2 core pLDDT ≥ 87, R3 GTR20 3Di matrix)
 results/lba/                 outgroup-removal long-branch-attraction control
 results/expansion/           expansion-check outputs
+results/rerun_2026-10/       October 2026 reanalysis: corrected AU tests, supports read by bipartition,
+                             ModelFinder, finished PMSF, full-search robustness runs, rebuilt graft, UFBoot
+                             reconciliation, and species_tree_aware/ (ALE, GeneRax SPR, local swaps)
 docs/figures/                figure files (vector SVG + font-outlined PDF) and their generating scripts
 ```
+
+`tools/` is git-ignored. On the authors' Mac it holds the binaries the reanalysis used:
+- IQ-TREE 3.1.2 (macOS arm);
+- GeneRax 2.0.4 (arm64 source build);
+- ALE b59dfaf (x86_64; patched and unpatched builds).
+
+IQ-TREE is the official 3.1.2 macOS-arm release (iqtree.org). Recipes and patches to rebuild GeneRax and ALE are in
+`results/rerun_2026-10/species_tree_aware/software/BUILD.md`.
+
+Only the bootstrap tree sets that downstream analyses read are tracked; the other `.ufboot` files are not
+(see `.gitignore`).
 
 Not included because they are large and regenerable:
 - the 828 AlphaFold DB models (`workflow/03_fetch_structures.py` re-downloads them);
@@ -64,7 +81,12 @@ manuscript numbering:
 `README_REPRODUCTION_PACKAGE.md` gives the stage-by-stage commands, inputs and outputs. Software:
 - MAFFT 7.526, trimAl 1.5.1, HMMER 3.4, IQ-TREE 3.1.2, Foldseek 10, FastME 2.1.6.3, GeneRax 2.0.4
   (2.1.3, which is pinned in `env.lock.txt`, crashes during reconciliation), ete3 3.1.3;
-- R with ape, ggtree, ggplot2, svglite and deeptime for the figures.
+- R with ape, ggtree, ggplot2, svglite and deeptime for the figures;
+- reanalysis: GeneRax 2.0.4 built for arm64 without a build type (Release builds skip SPR moves compiled inside
+  `assert()`), ALE b59dfaf built for x86_64 with a one-line sampler patch for duplication–loss-only runs, and
+  the `pif1` (ete3 3.1.3, dendropy 5.0.8), `strecon` and `strecon_x86` conda envs.
+
+Large `.uml_rec`, tree-list and CCP files are stored gzipped; gunzip them before re-running.
 
 The 129 structures were predicted with ColabFold on an external GPU machine. Those models are included because
 their exact software versions were not recorded.

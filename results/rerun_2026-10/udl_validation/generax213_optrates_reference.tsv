@@ -1,0 +1,7 @@
+gene_tree	species_tree	gx213_D	gx213_L	gx213_ll
+aa3di50	ncbi	0.403687	1.08062	-6073.48
+supported	ncbi	0.408236	1.08546	-6227.99
+supported	graftv1	0.415526	1.11617	-6867.31
+supported	graftv2	0.408417	1.08512	-6058.58
+aa3di50	graftv1	0.406925	1.08434	-6620.82
+aa3di50	graftv2	0.407093	1.07268	-5872.39

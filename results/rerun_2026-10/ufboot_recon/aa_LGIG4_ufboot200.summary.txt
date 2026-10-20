@@ -1,0 +1,4 @@
+trees: 200 from results/seq_tree/pif1.ufboot
+gene-tree readout (rooted on Q9H611): anchor MRCA all-Saccharomycotina in 3/200; MRCA size distribution [(950, 37), (956, 32), (954, 31), (945, 11), (948, 8), (878, 5)]
+ncbi: duplication maps inside Saccharomycotina in 3/200 (1.5%); nodes [('node_0(718)', 196), ('node_448(104)', 3), ('node_1(688)', 1)]
+graftv2: duplication maps inside Saccharomycotina in 3/200 (1.5%); nodes [('node_0(718)', 196), ('sac_1(103)', 3), ('node_1(688)', 1)]

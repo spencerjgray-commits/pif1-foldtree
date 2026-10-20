@@ -1,0 +1,10 @@
+== results/seq_tree/aa_bl.treefile
+Rrm3 daughter: 99 tips, stem branch 0.148, mean terminal 0.191
+Pif1 daughter: 98 tips, stem branch 0.011, mean terminal 0.150
+outside duplication clade, all tips (incl. 8 Sacch + hPIF1): mean terminal 0.083 (n=760)
+non-Saccharomycotina single-copy: 0.046 (n=535); multi-copy: 0.163 (n=216)
+== results/rerun_2026-10/main_supported/aa_bl_supported.treefile
+Rrm3 daughter: 100 tips, stem branch 0.082, mean terminal 0.198
+Pif1 daughter: 97 tips, stem branch 0.035, mean terminal 0.142
+outside duplication clade, all tips (incl. 8 Sacch + hPIF1): mean terminal 0.086 (n=760)
+non-Saccharomycotina single-copy: 0.048 (n=535); multi-copy: 0.167 (n=216)

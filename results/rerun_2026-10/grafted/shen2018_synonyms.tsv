@@ -1,0 +1,105 @@
+taxid	organism_in_dataset	ncbi_current_species	ncbi_genus	ncbi_family	placement	shen_tip_or_clade	synonym_hit
+61262	Maudiozyma barnettii	Maudiozyma barnettii	Maudiozyma	Saccharomycetaceae	genus	MRCA of 1 Maudiozyma tips	
+51915	Maudiozyma humilis (Sour dough yeast) (Kazachstania humilis)	Maudiozyma humilis	Maudiozyma	Saccharomycetaceae	genus	MRCA of 1 Maudiozyma tips	
+1789683	Maudiozyma saulgeensis	Maudiozyma saulgeensis	Maudiozyma	Saccharomycetaceae	genus	MRCA of 1 Maudiozyma tips	
+273131	Nakaseomyces bracarensis	Nakaseomyces bracarensis	Nakaseomyces	Saccharomycetaceae	exact	Candida_bracarensis	yes
+1071380	Henningerozyma blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC 10599 / NRRL Y-10934 / UCD 77-7) (Yeast) (Tetrapisispora blattae)	Henningerozyma blattae	Henningerozyma	Saccharomycetaceae	exact	Tetrapisispora_blattae	yes
+1071383	Huiozyma naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / KCTC 17520 / NBRC 10181 / NCYC 3082 / Yp74L-3) (Yeast) (Kazachstania naganishii)	Huiozyma naganishii	Huiozyma	Saccharomycetaceae	exact	Kazachstania_naganishii	yes
+36035	Saccharomycodes ludwigii	Saccharomycodes ludwigii	Saccharomycodes	Saccharomycodaceae	family	MRCA of 8 Saccharomycodaceae tips	
+43959	Saccharomycopsis crataegensis	Saccharomycopsis crataegensis	Saccharomycopsis	Saccharomycopsidaceae	genus	MRCA of 2 Saccharomycopsis tips	
+1378264	Wickerhamomyces mucosus	Waltiozyma mucosa	Waltiozyma	Wickerhamomycetaceae	family	MRCA of 24 Wickerhamomycetaceae tips	
+599730	Wickerhamomyces pijperi (Yeast) (Pichia pijperi)	Waltiozyma pijperi	Waltiozyma	Wickerhamomycetaceae	family	MRCA of 24 Wickerhamomycetaceae tips	
+13370	Brettanomyces naardenensis (Yeast)	Brettanomyces naardenensis	Brettanomyces	Pichiaceae	genus	MRCA of 3 Brettanomyces tips	
+5007	Dekkera bruxellensis (Brettanomyces custersii)	Brettanomyces bruxellensis	Brettanomyces	Pichiaceae	exact	Brettanomyces_bruxellensis	yes
+45357	Candidozyma haemuli	Candidozyma haemuli	Candidozyma	Metschnikowiaceae	genus	MRCA of 2 Candidozyma tips	
+498019	Candidozyma auris (Yeast) (Candida auris)	Candidozyma auris	Candidozyma	Metschnikowiaceae	exact	Candida_auris	yes
+418784	Candidozyma pseudohaemuli	Candidozyma pseudohaemuli	Candidozyma	Metschnikowiaceae	genus	MRCA of 2 Candidozyma tips	
+1231522	Candidozyma duobushaemuli	Candidozyma duobushaemuli	Candidozyma	Metschnikowiaceae	genus	MRCA of 2 Candidozyma tips	
+45354	Sungouiella intermedia	Sungouiella intermedia	Sungouiella	Metschnikowiaceae	exact	Candida_intermedia	yes
+291208	Australozyma saopauloensis	Australozyma saopauloensis	Australozyma	Metschnikowiaceae	family	MRCA of 35 Metschnikowiaceae tips	
+2163413	Metschnikowia aff. pulcherrima	Metschnikowia aff. pulcherrima	Metschnikowia	Metschnikowiaceae	genus	MRCA of 26 Metschnikowia tips	
+5481	Diutina rugosa (Yeast) (Candida rugosa)	Diutina rugosa	Diutina	Debaryomycetaceae	family	MRCA of 56 Debaryomycetaceae tips	
+1233043	Lipomyces orientalis	Lipomyces orientalis	Lipomyces	Lipomycetaceae	genus	MRCA of 8 Lipomyces tips	
+45607	Wickerhamiella sorbophila	Wickerhamiella sorbophila	Wickerhamiella	Trichomonascaceae	genus	MRCA of 4 Wickerhamiella tips	
+1247836	Starmerella bacillaris (Yeast) (Candida zemplinina)	Starmerella bacillaris	Starmerella	Trichomonascaceae	genus	MRCA of 2 Starmerella tips	
+44093	Trichomonascus ciferrii	Blastobotrys ciferrii	Blastobotrys	Trichomonascaceae	genus	MRCA of 9 Blastobotrys tips	
+2606893	Magnusiomyces paraingens	Magnusiomyces paraingens	Magnusiomyces	Dipodascaceae	genus	MRCA of 2 Magnusiomyces tips	
+284591	Yarrowia lipolytica (strain CLIB 122 / E 150) (Yeast) (Candida lipolytica)	Yarrowia lipolytica	Yarrowia		exact	Yarrowia_lipolytica	
+796027	Sugiyamaella lignohabitans	Sugiyamaella lignohabitans	Sugiyamaella	Trichomonascaceae	exact	Sugiyamaella_lignohabitans	
+1173061	Geotrichum candidum (Oospora lactis) (Dipodascus geotrichum)	Geotrichum candidum	Geotrichum	Dipodascaceae	exact	Geotrichum_candidum	
+27317	Geotrichum galactomycetum	Geotrichum galactomycetum	Geotrichum	Dipodascaceae	genus	MRCA of 1 Geotrichum tips	
+284592	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) (Yeast) (Torulaspora hansenii)	Debaryomyces hansenii	Debaryomyces	Debaryomycetaceae	exact	Debaryomyces_hansenii	
+58627	Debaryomyces fabryi	Debaryomyces fabryi	Debaryomyces	Debaryomycetaceae	exact	Debaryomyces_fabryi	
+294747	Candida tropicalis (strain ATCC MYA-3404 / T1) (Yeast)	Candida tropicalis	Candida	Debaryomycetaceae	exact	Candida_tropicalis	
+237561	Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)	Candida albicans	Candida	Debaryomycetaceae	exact	Candida_albicans	
+148631	[Candida] anglica	[Candida] anglica	Kurtzmaniella	Debaryomycetaceae	genus	MRCA of 2 Kurtzmaniella tips	
+467808	[Candida] jaroonii	Yamadazyma jaroonii	Yamadazyma	Debaryomycetaceae	genus	MRCA of 7 Yamadazyma tips	
+561895	[Candida] subhashii	Hemisphaericaspora subhashii	Hemisphaericaspora	Debaryomycetaceae	genus	MRCA of 1 Hemisphaericaspora tips	
+1227364	Candida verbasci	Insectozyma verbasci	Insectozyma	Debaryomycetaceae	family	MRCA of 56 Debaryomycetaceae tips	
+45579	[Candida] railenensis	Dujonia railenensis	Dujonia	Debaryomycetaceae	genus	MRCA of 1 Dujonia tips	
+1245528	Candida maltosa (strain Xu316) (Yeast)	Candida maltosa	Candida	Debaryomycetaceae	genus	MRCA of 6 Candida tips	
+5486	Candida viswanathii	Candida viswanathii	Candida	Debaryomycetaceae	genus	MRCA of 6 Candida tips	
+294748	Candida albicans (strain WO-1) (Yeast)	Candida albicans	Candida	Debaryomycetaceae	exact	Candida_albicans	
+497107	Candida oxycetoniae	Lodderomyces oxycetoniae	Lodderomyces	Debaryomycetaceae	genus	MRCA of 3 Lodderomyces tips	
+273372	Candida metapsilosis	Lodderomyces metapsilosis	Lodderomyces	Debaryomycetaceae	genus	MRCA of 3 Lodderomyces tips	
+573826	Candida dubliniensis (strain CD36 / ATCC MYA-646 / CBS 7987 / NCPF 3949 / NRRL Y-17841) (Yeast)	Candida dubliniensis	Candida	Debaryomycetaceae	exact	Candida_dubliniensis	
+1198502	Candida theae	Lodderomyces theae	Lodderomyces	Debaryomycetaceae	genus	MRCA of 3 Lodderomyces tips	
+1136231	Candida orthopsilosis (strain 90-125) (Yeast)	Lodderomyces orthopsilosis	Lodderomyces	Debaryomycetaceae	exact	Candida_orthopsilosis	
+578454	Candida parapsilosis (strain CDC 317 / ATCC MYA-4646) (Yeast) (Monilia parapsilosis)	Lodderomyces parapsilosis	Lodderomyces	Debaryomycetaceae	exact	Candida_parapsilosis	
+379508	Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) (Yeast) (Saccharomyces elongisporus)	Lodderomyces elongisporus	Lodderomyces	Debaryomycetaceae	exact	Lodderomyces_elongisporus	
+1775926	Lodderomyces beijingensis	Lodderomyces beijingensis	Lodderomyces	Debaryomycetaceae	genus	MRCA of 3 Lodderomyces tips	
+306902	Clavispora lusitaniae (strain ATCC 42720) (Yeast) (Candida lusitaniae)	Clavispora lusitaniae	Clavispora	Metschnikowiaceae	exact	Clavispora_lusitaniae	
+294746	Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324) (Yeast) (Candida guilliermondii)	Meyerozyma guilliermondii	Meyerozyma	Debaryomycetaceae	exact	Meyerozyma_guilliermondii	
+1382522	Kuraishia capsulata CBS 1993	Kuraishia capsulata	Kuraishia	Pichiaceae	exact	Kuraishia_capsulata	
+5477	Candida boidinii (Yeast)	[Candida] boidinii	Ogataea	Pichiaceae	exact	Candida_boidinii	
+4909	Pichia kudriavzevii (Yeast) (Issatchenkia orientalis)	Pichia kudriavzevii	Pichia	Pichiaceae	exact	Pichia_kudriavzevii	
+559304	Pichia sorbitophila (strain ATCC MYA-4447 / BCRC 22081 / CBS 7064 / NBRC 10061 / NRRL Y-12695) (Hybrid yeast)	Millerozyma farinosa	Millerozyma	Debaryomycetaceae	genus	MRCA of 1 Millerozyma tips	
+52247	Pichia inconspicua	Pichia inconspicua	Pichia	Pichiaceae	genus	MRCA of 9 Pichia tips	
+36015	Pichia kluyveri (Yeast)	Pichia kluyveri	Pichia	Pichiaceae	genus	MRCA of 9 Pichia tips	
+4926	Pichia membranifaciens	Pichia membranifaciens	Pichia	Pichiaceae	exact	Pichia_membranifaciens	
+870730	Pichia angusta (Yeast) (Hansenula polymorpha)	Ogataea angusta	Ogataea	Pichiaceae	genus	MRCA of 19 Ogataea tips	
+43982	Ambrosiozyma monospora (Yeast) (Endomycopsis monosporus)	Ambrosiozyma monospora	Ambrosiozyma	Pichiaceae	exact	Ambrosiozyma_monospora	
+1378263	Ogataea philodendri	Ogataea philodendri	Ogataea	Pichiaceae	exact	Ogataea_philodendri	
+460523	Ogataea polymorpha	Ogataea polymorpha	Ogataea	Pichiaceae	exact	Ogataea_polymorpha	
+871575	Ogataea parapolymorpha (strain ATCC 26012 / BCRC 20466 / JCM 22074 / NRRL Y-7560 / DL-1) (Yeast) (Hansenula polymorpha)	Ogataea parapolymorpha	Ogataea	Pichiaceae	exact	Ogataea_parapolymorpha	
+1937702	Ogataea haglerorum	Ogataea haglerorum	Ogataea	Pichiaceae	genus	MRCA of 19 Ogataea tips	
+981350	Komagataella phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1) (Yeast) (Pichia pastoris)	Komagataella phaffii	Komagataella	Pichiaceae	genus	MRCA of 3 Komagataella tips	
+4922	Komagataella pastoris (Yeast) (Pichia pastoris)	Komagataella pastoris	Komagataella	Pichiaceae	exact	Komagataella_pastoris	
+644223	Komagataella phaffii (strain GS115 / ATCC 20864) (Yeast) (Pichia pastoris)	Komagataella phaffii	Komagataella	Pichiaceae	genus	MRCA of 3 Komagataella tips	
+29833	Hanseniaspora uvarum (Yeast) (Kloeckera apiculata)	Hanseniaspora uvarum	Hanseniaspora	Saccharomycodaceae	exact	Hanseniaspora_uvarum	
+56406	Hanseniaspora guilliermondii	Hanseniaspora guilliermondii	Hanseniaspora	Saccharomycodaceae	genus	MRCA of 8 Hanseniaspora tips	
+56408	Hanseniaspora osmophila	Hanseniaspora osmophila	Hanseniaspora	Saccharomycodaceae	exact	Hanseniaspora_osmophila	
+211096	Hanseniaspora opuntiae	Hanseniaspora opuntiae	Hanseniaspora	Saccharomycodaceae	genus	MRCA of 8 Hanseniaspora tips	
+436907	Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) (Kluyveromyces polysporus)	Vanderwaltozyma polyspora	Vanderwaltozyma	Saccharomycetaceae	exact	Vanderwaltozyma_polyspora	
+1071381	Tetrapisispora phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL Y-8282 / UCD 70-5) (Yeast) (Fabospora phaffii)	Tetrapisispora phaffii	Tetrapisispora	Saccharomycetaceae	exact	Tetrapisispora_phaffii	
+284593	Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) (Yeast) (Nakaseomyces glabratus)	Nakaseomyces glabratus	Nakaseomyces	Saccharomycetaceae	exact	Candida_glabrata	
+1080349	Saccharomyces eubayanus (Yeast)	Saccharomyces eubayanus	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_eubayanus	
+230603	Saccharomyces uvarum (Yeast) (Saccharomyces bayanus var. uvarum)	Saccharomyces uvarum	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_uvarum	
+226230	Saccharomyces kudriavzevii (strain ATCC MYA-4449 / AS 2.2408 / CBS 8840 / NBRC 1802 / NCYC 2889) (Yeast)	Saccharomyces kudriavzevii	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_kudriavzevii	
+226126	Saccharomyces mikatae IFO 1815	Saccharomyces mikatae	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_mikatae	
+1095631	Saccharomyces cerevisiae x Saccharomyces kudriavzevii (strain VIN7) (Yeast)	Saccharomyces cerevisiae x Saccharomyces kudriavzevii	Saccharomyces	Saccharomycetaceae	genus	MRCA of 7 Saccharomyces tips	
+559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	Saccharomyces cerevisiae	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_cerevisiae	
+1160507	Saccharomyces arboricola (strain H-6 / AS 2.3317 / CBS 10644) (Yeast)	Saccharomyces arboricola	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_arboricola	
+285006	Saccharomyces cerevisiae (strain RM11-1a) (Baker's yeast)	Saccharomyces cerevisiae	Saccharomyces	Saccharomycetaceae	exact	Saccharomyces_cerevisiae	
+1071382	Kazachstania africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 / CECT 1963 / NBRC 1671 / NRRL Y-8276) (Yeast) (Kluyveromyces africanus)	Kazachstania africana	Kazachstania	Saccharomycetaceae	exact	Kazachstania_africana	
+27288	Naumovozyma castellii (Yeast) (Saccharomyces castellii)	Naumovozyma castellii	Naumovozyma	Saccharomycetaceae	exact	Naumovozyma_castellii	
+1071378	Naumovozyma dairenensis (strain ATCC 10597 / BCRC 20456 / CBS 421 / NBRC 0211 / NRRL Y-12639) (Saccharomyces dairenensis)	Naumovozyma dairenensis	Naumovozyma	Saccharomycetaceae	exact	Naumovozyma_dairenensis	
+559307	Zygosaccharomyces rouxii (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 / NRRL Y-229)	Zygosaccharomyces rouxii	Zygosaccharomyces	Saccharomycetaceae	exact	Zygosaccharomyces_rouxii	
+1333698	Zygosaccharomyces bailii (strain CLIB 213 / ATCC 58445 / CBS 680 / BCRC 21525 / NBRC 1098 / NCYC 1416 / NRRL Y-2227)	Zygosaccharomyces bailii	Zygosaccharomyces	Saccharomycetaceae	exact	Zygosaccharomyces_bailii	
+42260	Zygotorulaspora mrakii (Zygosaccharomyces mrakii)	Zygotorulaspora mrakii	Zygotorulaspora	Saccharomycetaceae	exact	Zygotorulaspora_mrakii	
+4950	Torulaspora delbrueckii (Yeast) (Candida colliculosa)	Torulaspora delbrueckii	Torulaspora	Saccharomycetaceae	exact	Torulaspora_delbrueckii	
+48254	Torulaspora globosa	Torulaspora globosa	Torulaspora	Saccharomycetaceae	genus	MRCA of 5 Torulaspora tips	
+4955	Lachancea fermentati (Zygosaccharomyces fermentati)	Lachancea fermentati	Lachancea	Saccharomycetaceae	exact	Lachancea_fermentati	
+1230905	Lachancea mirantina	Lachancea mirantina	Lachancea	Saccharomycetaceae	exact	Lachancea_mirantina	
+559295	Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284) (Yeast) (Kluyveromyces thermotolerans)	Lachancea thermotolerans	Lachancea	Saccharomycetaceae	exact	Lachancea_thermotolerans	
+1654605	Lachancea quebecensis	Lachancea quebecensis	Lachancea	Saccharomycetaceae	exact	Lachancea_quebecensis	
+1266666	Lachancea nothofagi CBS 11611	Lachancea nothofagi	Lachancea	Saccharomycetaceae	exact	Lachancea_nothofagi	
+1072105	Lachancea dasiensis	Lachancea dasiensis	Lachancea	Saccharomycetaceae	exact	Lachancea_dasiensis	
+1266667	Lachancea meyersii CBS 8951	Lachancea meyersii	Lachancea	Saccharomycetaceae	exact	Lachancea_meyersii	
+1245769	Lachancea lanzarotensis	Lachancea lanzarotensis	Lachancea	Saccharomycetaceae	exact	Lachancea_lanzarotensis	
+4911	Kluyveromyces marxianus (Yeast) (Candida kefyr)	Kluyveromyces marxianus	Kluyveromyces	Saccharomycetaceae	exact	Kluyveromyces_marxianus	
+1427455	Kluyveromyces dobzhanskii CBS 2104	Kluyveromyces dobzhanskii	Kluyveromyces	Saccharomycetaceae	exact	Kluyveromyces_dobzhanskii	
+284590	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) (Yeast) (Candida sphaerica)	Kluyveromyces lactis	Kluyveromyces	Saccharomycetaceae	exact	Kluyveromyces_lactis	
+931890	Eremothecium cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL Y-17582) (Yeast)	Eremothecium cymbalariae	Eremothecium	Saccharomycetaceae	exact	Eremothecium_cymbalariae	
+284811	Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) (Yeast) (Ashbya gossypii)	Eremothecium gossypii	Eremothecium	Saccharomycetaceae	exact	Eremothecium_gossypii	
+45286	Eremothecium sinecaudum	Eremothecium sinecaudum	Eremothecium	Saccharomycetaceae	exact	Eremothecium_sinecaudum	

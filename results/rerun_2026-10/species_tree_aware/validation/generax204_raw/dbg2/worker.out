@@ -1,0 +1,14 @@
+Starting optimizeGeneTreesSlave
+LibpllModel LG+I+G4
+Starting optimizing gene tree
+Number of ranks 1
+(0.372461, 1, score = 0)
+Taxa number: 957
+joint: -101306  libpll: -95306.9  reconciliation: -5999.41  
+Initial ll = -101306
+Start SPR round (std::hash=14301, (best ll=-101306, radius=1, possible moves: 1908)
+best;; -101254 0
+Start SPR round (std::hash=28293, (best ll=-101254, radius=1, possible moves: 1908)
+best;; -101209 0
+Start SPR round (std::hash=83729, (best ll=-101209, radius=1, possible moves: 1908)
+/private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/dbg2/cmd.sh: line 1: 34344 Terminated: 15          /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/build/generax204_dbg/build/bin/generax optimizeGeneTrees results/seq_tree/pif1.treefile results/rerun_2026-10/species_tree_aware/species_trees/gene_species_957.map results/seq_tree/aln.trim.fasta results/rerun_2026-10/species_tree_aware/generax/v2fix_aa_deep/species_trees/inferred_species_tree.newick LG+I+G4 results/rerun_2026-10/species_tree_aware/generax/v2fix_aa_deep/gene_optimization_0/dtl_rates.txt 0 0 0 0 0 0.000001 NONE 0 -1 1 1 1 1 /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/dbg2/geneTree.newick /private/tmp/claude-501/-Users-spencergray-Desktop-pif1-foldtree/c1b55069-62c6-4237-9ba9-4a315cadb526/scratchpad/grtest/dbg2/stats.txt 0

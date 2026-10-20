@@ -1,0 +1,40 @@
+conda-forge/noarch                                          Using cache
+conda-forge/osx-arm64                                       Using cache
+
+
+Transaction
+
+  Prefix: /Users/spencergray/miniforge3/envs/strecon
+
+  Updating specs:
+
+   - bison
+   - flex
+
+
+  Package  Version  Build          Channel          Size
+──────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────
+
+  + bison    3.8.2  h151c81c_0     conda-forge     620kB
+  + flex     2.6.4  h1474e2a_1004  conda-forge     241kB
+  + m4      1.4.21  h84a0fba_0     conda-forge     234kB
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 1MB
+
+──────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking m4-1.4.21-h84a0fba_0
+Linking flex-2.6.4-h1474e2a_1004
+Linking bison-3.8.2-h151c81c_0
+
+Transaction finished
+

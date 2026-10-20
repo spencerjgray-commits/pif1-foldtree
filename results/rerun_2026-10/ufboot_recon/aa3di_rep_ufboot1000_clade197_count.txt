@@ -1,0 +1,1 @@
+trees: 1000; clade (197 tips) present as a split: 0; anchor MRCA all-Saccharomycotina: 4; MRCA sizes [(880, 489), (946, 196), (877, 76), (878, 44), (881, 36), (947, 29)]

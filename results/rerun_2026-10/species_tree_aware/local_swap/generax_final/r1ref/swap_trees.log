@@ -1,0 +1,7 @@
+deep reference: Pif1 daughter 96 tips; its sister clade 14 tips
+gr5_deep: anchor MRCA 197 tips; Pif1 daughter 93; Rrm3 daughter 104; edges between their stems 2
+   gr5_deep_todeep: anchor MRCA now 219 tips
+gr5_197: anchor MRCA 197 tips; Pif1 daughter 93; Rrm3 daughter 104; edges between their stems 2
+   gr5_197_todeep: anchor MRCA now 219 tips
+gr5_197Q: anchor MRCA 197 tips; Pif1 daughter 93; Rrm3 daughter 104; edges between their stems 2
+   gr5_197Q_todeep: anchor MRCA now 219 tips

@@ -1,0 +1,17 @@
+gene	taxid	current_taxid	organism	species	species_name	leaf	leaf_name	how
+K0KM86_Wickerhamomyces	1206466	1041607	Wickerhamomyces ciferrii (strain ATCC 14091 / BCRC 22168 / C	1041607	Hansenula ciferrii	1041607	Hansenula ciferrii	no leaf for this species: leaf added
+A0ABY6US88_Clonostachys	29856	29856	Bionectria ochroleuca (Gliocladium roseum)	29856	Clonostachys rosea	1349383	Clonostachys rosea f. rosea IK726	same NCBI species
+A0A179IKE1_Akanthomyces	2714763	2714763	Cordyceps confragosa (Lecanicillium lecanii)	2714763	Akanthomyces lecanii	1081108	Akanthomyces lecanii RCEF 1005	same NCBI species
+A0A0K3C6U0_Rhodotorula	5286	5286	Rhodotorula toruloides (Yeast) (Rhodosporidium toruloides)	5286	Rhodotorula toruloides	1130832	Rhodotorula toruloides NP11	same NCBI species
+A0A0K6FND2_Rhizoctonia	456999	456999	Rhizoctonia solani	456999	Rhizoctonia solani	1108050	Rhizoctonia solani AG-1 IB	same NCBI species (1 of 2 leaves: 1108050,1423351)
+A0A5B0MRD7_Puccinia	56615	56615	Puccinia graminis f. sp. tritici	5297	Puccinia graminis	418459	Puccinia graminis f. sp. tritici CRL 75-36-700-3	same NCBI species
+K0KZ61_Wickerhamomyces	1206466	1041607	Wickerhamomyces ciferrii (strain ATCC 14091 / BCRC 22168 / C	1041607	Hansenula ciferrii	1041607	Hansenula ciferrii	no leaf for this species: leaf added
+A0A0K6G7K7_Rhizoctonia	456999	456999	Rhizoctonia solani	456999	Rhizoctonia solani	1108050	Rhizoctonia solani AG-1 IB	same NCBI species (1 of 2 leaves: 1108050,1423351)
+A0A5B0N1Q3_Puccinia	56615	56615	Puccinia graminis f. sp. tritici	5297	Puccinia graminis	418459	Puccinia graminis f. sp. tritici CRL 75-36-700-3	same NCBI species
+A0ABY7D8X9_Puccinia	208348	208348	Puccinia triticina	208348	Puccinia triticina	630390	Puccinia triticina 1-1 BBBD Race 1	same NCBI species
+A0A0K6G747_Rhizoctonia	456999	456999	Rhizoctonia solani	456999	Rhizoctonia solani	1108050	Rhizoctonia solani AG-1 IB	same NCBI species (1 of 2 leaves: 1108050,1423351)
+A0A2S4URQ4_Puccinia	27350	27350	Puccinia striiformis	27350	Puccinia striiformis	1165861	Puccinia striiformis f. sp. tritici PST-78	same NCBI species
+A0A5B0N0I5_Puccinia	56615	56615	Puccinia graminis f. sp. tritici	5297	Puccinia graminis	418459	Puccinia graminis f. sp. tritici CRL 75-36-700-3	same NCBI species
+A0A0K6G754_Rhizoctonia	456999	456999	Rhizoctonia solani	456999	Rhizoctonia solani	1108050	Rhizoctonia solani AG-1 IB	same NCBI species (1 of 2 leaves: 1108050,1423351)
+A0A0K6GA87_Rhizoctonia	456999	456999	Rhizoctonia solani	456999	Rhizoctonia solani	1108050	Rhizoctonia solani AG-1 IB	same NCBI species (1 of 2 leaves: 1108050,1423351)
+A0A9P6YYP4_Rhizopus	936053	936053	Rhizopus delemar	936053	Rhizopus delemar	246409	Rhizopus delemar RA 99-880	same NCBI species

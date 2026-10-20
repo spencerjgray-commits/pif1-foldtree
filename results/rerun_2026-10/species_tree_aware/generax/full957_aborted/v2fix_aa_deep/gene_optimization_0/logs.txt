@@ -1,0 +1,19 @@
+The master process runs on node  and on pid 36445
+Remaining commands: 1
+## Started pif1 on [0:0] 
+All commands were launched
+Runner is still alive after 60s
+Runner is still alive after 120s
+Runner is still alive after 180s
+Runner is still alive after 240s
+Runner is still alive after 300s
+Runner is still alive after 360s
+Runner is still alive after 420s
+Runner is still alive after 480s
+Runner is still alive after 540s
+Runner is still alive after 600s
+Runner is still alive after 660s
+Runner is still alive after 720s
+Runner is still alive after 780s
+Runner is still alive after 840s
+Runner is still alive after 900s

@@ -1,0 +1,7 @@
+kept 408 of 957 genes (205 Saccharomycotina) from 264 of 720 species; 74 outgroup orders/classes, up to 3 species each (seed 42)
+species tree v2fix: 264 leaves; node_0 True, node_448 True, sac_1 True
+species tree ncbi: 264 leaves; node_0 True, node_448 True, sac_1 False
+start tree aa_deep: 408 leaves -> results/rerun_2026-10/species_tree_aware/reduced/start_aa_deep.nwk
+start tree aa_197: 408 leaves -> results/rerun_2026-10/species_tree_aware/reduced/start_aa_197.nwk
+start tree aa_197Q: 408 leaves -> results/rerun_2026-10/species_tree_aware/reduced/start_aa_197Q.nwk
+start tree aa_from197: 402 leaves -> results/rerun_2026-10/species_tree_aware/reduced/start_aa_from197.nwk
